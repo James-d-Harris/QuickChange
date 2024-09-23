@@ -105,7 +105,7 @@ In an increasingly digital world, the ability to use physical money is at risk o
 **Summary:** Abigail is a Junior Early Elementary Education Major student at NAU, and is a teacher for Flagstaff Montessori School for her third semester.\
 **Interviewer:** Sean\
 **Interviewee:** Abigail\
-**When:** September 27, 2024\
+**When:** September 21, 2024\
 **Customer Segments:** Teachers\
 
 **Key Insights:**
