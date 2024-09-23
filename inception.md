@@ -86,36 +86,36 @@ In an increasingly digital world, the ability to use physical money is at risk o
 - Aside from the discrepancy with the age, Tracy thinks this tool is a "Must have" going as far as to say she would even use this software to teach her own kids.
 
 ### Interview 5:
-**Summary:** N/A\
+**Summary:** Allison is a second year elementary school teacher in Parkridge Elementary School in Peoria Arizona, and she has a teaching degree from NAU.\
 **Interviewer:** Sean\
-**Interviewee:** N/A\
-**When:** N/A\
-**Customer Segments:** N/A\
+**Interviewee:** Allison\
+**When:** September 18, 2024\
+**Customer Segments:** Teachers\
 
 **Key Insights:**
-- N/A
+- Understanding of students' ability to understand technology, Zone of Proximal Development in understanding what is a comfortable range for students to be challenged with knowledge but not too much or they will be shut down, must be important for the uses of teacher summarization to see accomplishments of students unlike some well-known applications i.e. Kahn Academy.
 
 **Representative Quotes:**
-- N/A
+- "The issue with some great applications for students is that it can be amazing for them when using it, but how am I as a teacher supposed to know that someone is struggling when I have 30 something kids to watch in total?"
 
 **Assessments (Must have / Nice to have / Don't care):**
-- N/A
+- Mostly, Allison wants some integration of teacher side almost like administrative oversight into the students she is watching, as well as it must have an idea towards what can students do better to complete the task, like what is the fewest amount of coins to make 62 cents.
 
 ### Interview 6:
-**Summary:** N/A\
+**Summary:** Abigail is a Junior Early Elementary Education Major student at NAU, and is a teacher for Flagstaff Montessori School for her third semester.\
 **Interviewer:** Sean\
-**Interviewee:** N/A\
-**When:** N/A\
-**Customer Segments:** N/A\
+**Interviewee:** Abigail\
+**When:** September 27, 2024\
+**Customer Segments:** Teachers\
 
 **Key Insights:**
-- N/A
+- The full scope of the project is further into the ideas of what the students NEED out of this, such as if there is certain behaviors that students have, do not make this into too much of a distraction if it is meant to teach.
 
 **Representative Quotes:**
-- N/A
+- "With students, and especially what I have seen throughout my experience, it is important to have the understanding that some kids are self-driven towards a goal while others are constantly coming up to you and asking why everything is being done a certain way."
 
 **Assessments (Must have / Nice to have / Don't care):**
-- N/A
+- Abigail wants to understand what is this specifically for, as a game or as a tool that is more like simulation towards teaching, as well as wanting there to be some more to keep students coming back( too basic of just having them count money could be too uninviting for coming back i.e. rewards that aren't too basic either ).
 
 ### Interview 7:
 **Summary:** Tatum is an Early Elementary Education Major who graduates this winter. For the past two years, Tatum has been a Teacher Aide at Knoles Elementary School, helping with before and after school activities. She also sits in on an elementary school class one day a week.\
