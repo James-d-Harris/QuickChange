@@ -11,7 +11,11 @@
 
 ## 2. Stakeholders - Tre
 
-Make a list of all project stakeholders and a brief description of each one, emphasizing any responsibilities with the project.
+### List of stakeholders in order of control over the product
+1.	Our group of developers: We are a user which in this case would manage the distribution of our program and who has access to the managerial side of the content.
+2.	Teachers and school faculty: This group would have access to the software and the ability to manage which of their students have access to it and the ability to track progress of those students.
+3.	Students and Other Children Learning: This group would be the one using the main part of the program to learn with. They would be the group interacting with the game/learning experience. 
+
 
 ## 3. Functional Requirements - Sean
 
@@ -69,7 +73,12 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Postcondition:** Students gain confidence in their ability to give correct change, and the teacher receives feedback on their performance for further instruction.
 - Sean:
 - Tate:
-- Tre:
+- Tre: As a **student** I want to learn how to **handle money** so that I can **figure out the amount of change I am supposed to get back when buying things**.
+  - **Primary Actor:** Student
+  - **Precondition:** The student is using the application in student mode in a learning envoirnment. 
+  - **Trigger:** The student needs to learn about currency in the classroom and thus opens the application as a direction of the teacher.
+  - **Main Success Scenario:**  The student starts learning about currency in a way that interests them.
+  - **Postcondition:**The student understands how currency works.
 
 ## 7. User Stories - Everyone
 
@@ -84,8 +93,8 @@ In the form of: "As a \<ROLE>, I want \<SOMETHING> so that \<GOAL>."
 - Sean:
 - Tate:
 - Tate:
-- Tre:
-- Tre:
+- Tre:** as a teacher** I want to be capable of **Sorting students progress** so that I can **help the low performing students without singling them out.**
+- Tre:** as a student** I want to ** have fun ** so that I can **learn without it feeling like a chore.**
 
 ## 8. Issue Tracker - Everyone
 
