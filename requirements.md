@@ -6,8 +6,15 @@
 ## 1. Positioning - Dazzion
 
 ### 1.1 Problem Statement
+The problem of confusion when it comes to understanding the value of money affects elementary school kids; The impacts of which include lack of math proficiency and the development of counting skills, critical thinking, and the ability of recognizing patterns
+
 ### 1.2 Product Position Statement
+For kids that have trouble counting change or for elementary schools and online learning platforms that want to access a hands-on learning environment for counting change, QuickChange is an educational game that teaches kids the value of money. Unlike other learning platforms like Kahn Academy and ABC Mouse, our product engages students with a user experience centered around practical and real world scenarios.
+
 ### 1.3 Value Proposition and Customer Segment
+QuickChange is an educational game that teaches kids how to count money in the most accurate and efficient way by introducing the student to a real world learning environment
+
+Customer Segment:  Kids that want to learn how to count change, elementary schools and learning platforms that desire to supplement their math curriculum.
 
 ## 2. Stakeholders - Tre
 
@@ -64,7 +71,12 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
-- Dazzion:
+- Dazzion: As a **Student**, I want to **create an account in order to save and keep track of gaming progress**
+  - **Primary Actor:** Student
+  - **Precondition:** Has game progress and valid username and password
+  - **Trigger:** The student wants to save current progress
+  - **Main Success Scenario:** Student progresses in game, creates valid username/password, Saved data is linked to given username and stored in database
+  - **Postcondition:** Student can sign into account and retrieve saved progress from last login
 - James: As a **teacher**, I want to be able to **teach students how to calculate change effectively** so that they can **improve their financial literacy and practical math skills**.
   - **Primary Actor:** Teacher
   - **Precondition:** The teacher is using the QuickChange application in a classroom or learning environment.
@@ -84,8 +96,8 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 In the form of: "As a \<ROLE>, I want \<SOMETHING> so that \<GOAL>."
 
-- Dazzion:
-- Dazzion:
+- Dazzion: As a **student**, I want to **create my own account** so that my **game progress is saved and retrievable**
+- Dazzion: As a **student**, I want to be able to **view the set difficulty** so that i can **infer how much of a challenge the current level is**
 - James: **As a teacher**, I want to be able to **track my students' progress** so that I can **identify which students need more help with calculating change**.
 - James: **As a teacher**, I want to be able to **assign different difficulty levels to my students** so that they can **gradually improve their change-calculating skills at an appropriate pace**.
 - James: **As a student**, I want to **receive immediate feedback** on whether I provided the correct amount of change so that I can **learn from my mistakes and adjust my approach**.
