@@ -44,7 +44,7 @@ What will be your MVP? Which features are you going to validate? How?
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
-- Dazzion: The Student wishes to create an account in order to save and keep track of gaming progress. The user must enter a valid username and password, progress and login ID are linked and stored in database
+- Dazzion: As a **Student**, I want to **create an account in order to save and keep track of gaming progress**
   - **Primary Actor:** Student
   - **Precondition:** Has game progress and valid username and password
   - **Trigger:** The student wants to save current progress
@@ -59,8 +59,8 @@ What will be your MVP? Which features are you going to validate? How?
 
 In the form of: "As a \<ROLE>, I want \<SOMETHING> so that \<GOAL>."
 
-- Dazzion: As a gamer, I want to create my own account so that my game progress is saved and retrievable
-- Dazzion: As a student, I want to be able to view the difficulty so that i can infer how much of a challenge the current level is
+- Dazzion: As a **student**, I want to **create my own account** so that my **game progress is saved and retrievable**
+- Dazzion: As a **student**, I want to be able to **view the set difficulty** so that i can **infer how much of a challenge the current level is**
 - James:
 - James:
 - Sean:
