@@ -15,6 +15,7 @@ For kids that have trouble counting change or for elementary schools and online 
 - Value Proposition: QuickChange is an educational game that teaches kids how to count money in the most accurate and efficient way by introducing the student to a real world learning environment.
 - Customer Segment: Kids that want to learn how to count change, elementary schools and learning platforms that desire to supplement their math curriculum.
 
+
 ## 2. Stakeholders
 
 ### List of stakeholders in order of control over the product
