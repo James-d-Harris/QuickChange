@@ -153,5 +153,5 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ## 8. Issue Tracker - Everyone
 
-- [GitHub Issue Tracker](https://github.com/James-d-Harris/QuickChange/issues)
+- <a href="https://github.com/James-d-Harris/QuickChange/issues" target="_blank">GitHub Issue Tracker </a>
 - Screenshot(s)
