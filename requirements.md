@@ -6,7 +6,7 @@
 ## 1. Positioning - Dazzion
 
 ### 1.1 Problem Statement
-The problem of confusion when it comes understanding the value of money affects elementary school kids; The impacts of which include lack of math proficiency and the development of counting skills, critical thinking, and the ability of recognizing patterns
+The problem of confusion when it comes to understanding the value of money affects elementary school kids; The impacts of which include lack of math proficiency and the development of counting skills, critical thinking, and the ability of recognizing patterns
 
 ### 1.2 Product Position Statement
 For kids that have trouble counting change or for elementary schools and online learning platforms that want to access a hands-on learning environment for counting change, QuickChange is an educational game that teaches kids the value of money. Unlike other learning platforms like Kahn Academy and ABC Mouse, our product engages students with a user experience centered around practical and real world scenarios.
@@ -44,7 +44,12 @@ What will be your MVP? Which features are you going to validate? How?
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
-- Dazzion: The user wishes to create an account in order to save and keep track of gaming progress. The user must enter a valid username and password, progress and login id are linked and stored in database
+- Dazzion: The Student wishes to create an account in order to save and keep track of gaming progress. The user must enter a valid username and password, progress and login ID are linked and stored in database
+  - **Primary Actor:** Student
+  - **Precondition:** Has game progress and valid username and password
+  - **Trigger:** The student wants to save current progress
+  - **Main Success Scenario:** Student progresses in game, creates valid username/password, Saved data is linked to given username and stored in database
+  - **Postcondition:** Student can sign into account and retrieve saved progress from last login
 - James:
 - Sean:
 - Tate:
