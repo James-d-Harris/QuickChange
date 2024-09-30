@@ -68,7 +68,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.1 Use Case Diagrams
 
-![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/UseCaseTate.drawio%20(1).png)
+![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseTate.drawio%20(1).png)
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
