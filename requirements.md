@@ -151,7 +151,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Priority:** 6
   - **Estimated Hours:** 10
 
-## 8. Issue Tracker - Everyone
+## 8. Issue Tracker
 
-- [GitHub Issue Tracker](https://github.com/James-d-Harris/QuickChange/issues)
-- Screenshot(s)
+- <a href="https://github.com/James-d-Harris/QuickChange/issues" target="_blank">GitHub Issue Tracker </a>
+- ![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/IssueTrackerScreenshot.png)
