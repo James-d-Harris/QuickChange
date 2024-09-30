@@ -3,7 +3,7 @@
 *Date: September 26, 2024*\
 *Group Members: Dazzion Porter, James Harris, Sean Weston, Tate Whittaker, Tre Kelley*
 
-## 1. Positioning - Dazzion
+## 1. Positioning
 
 ### 1.1 Problem Statement
 The problem of confusion when it comes to understanding the value of money affects elementary school kids; The impacts of which include lack of math proficiency and the development of counting skills, critical thinking, and the ability of recognizing patterns
@@ -68,7 +68,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.1 Use Case Diagrams
 
-- We only need one actual diagram here.
+![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseTate.drawio%20(1).png)
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
@@ -110,23 +110,21 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ## 7. User Stories
 
-In the form of: "As a \<ROLE>, I want \<SOMETHING> so that \<GOAL>."
-
 - Dazzion: As a **student**, I want to **create my own account** so that my **game progress is saved and retrievable**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 10
+  - **Estimated Hours:** 10
 - Dazzion: As a **student**, I want to be able to **view the set difficulty** so that i can **infer how much of a challenge the current level is**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 8
+  - **Estimated Hours:** 2
 - James: **As a teacher**, I want to be able to **track my students' progress** so that I can **identify which students need more help with calculating change**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 10
+  - **Estimated Hours:** 8
 - James: **As a teacher**, I want to be able to **assign different difficulty levels to my students** so that they can **gradually improve their change-calculating skills at an appropriate pace**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 8
+  - **Estimated Hours:** 5
 - James: **As a student**, I want to **receive immediate feedback** on whether I provided the correct amount of change so that I can **learn from my mistakes and adjust my approach**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 9
+  - **Estimated Hours:** 3 
 - Sean:
   - **Priority:**
   - **Estimated Hours:**
@@ -135,16 +133,16 @@ In the form of: "As a \<ROLE>, I want \<SOMETHING> so that \<GOAL>."
   - **Estimated Hours:**
 - Tate: **As a teacher**, I want to **see an overview of my class** so that I can **plan future lessons around topics where students are struggling**.
   - **Priority:** 7
-  - **Estimated Hours:** 15
+  - **Estimated Hours:** 10
 - Tate: **As a parent**, I want to be able to **view my child's progress at home** so that I can **support their learning and practice with them outside of school**.
   - **Priority:** 3
   - **Estimated Hours:** 5
 - Tre: **As a teacher** I want to be capable of **Sorting students progress** so that I can **help the low performing students without singling them out.**
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 9
+  - **Estimated Hours:** 2.5
 - Tre: **As a student** I want to **have fun** so that I can **learn without it feeling like a chore**.
-  - **Priority:**
-  - **Estimated Hours:**
+  - **Priority:** 6
+  - **Estimated Hours:** 10
 
 ## 8. Issue Tracker - Everyone
 
