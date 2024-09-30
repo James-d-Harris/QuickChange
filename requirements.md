@@ -24,11 +24,12 @@ For kids that have trouble counting change or for elementary schools and online 
 3.  Students and other children learning: This group would be the one using the main part of the program to learn with. They would be the group interacting with the game/learning experience. 
 
 
-## 3. Functional Requirements - Sean
+## 3. Functional Requirements
 
-1. TBD
-2. TBD
-3. TBD
+1. Data Storage: Our system must be capable of storing the data of each user into a database constructed to keep information accessible to both user and teacher. The aim is to include a main way to store progress of the individuals, incorporate a system for teachers to view progress and to allow for there to be simple communication of the database to everyone. Mostly, the database will keep simple data as well as some tracking of points accumulated or other added options to the application.
+2. GUI Simplicity: The design programming for the GUI must be with a process of simplicity and easy-to-understand importance for the users. This requirement is needed for the uses of students to give them something they can use while also be friendly to teachers for simple maneuvering of information. This will mostly be in the form of buttons or text boxes with no knowledge needed of programming or coding.
+3. Generate Problems: The program is capable of generating problems given the level at which the student input for grades. This is important for the program to not be hard coded with set questions and instead will create a near infinite amount of problems generated to the specifics of each grade and what they are relatively around. This will be on the server side with a help of some coding to include certain parameters given the differences in the levels.
+4. Admin Teachers: The program is with the design of students and teachers, which is why it is important to give an advanced role to the teacher in the form of being in charge of their students. This is important for the previous requirements to give the teacher a bigger view of the class as a whole. Roughly fifteen to thirty kids can be in a class and if a teacher is in charge of overseeing their work, it is important to give that information to the teacher as well as give them oversight to be in charge of the class.
 
 ## 4. Non-Functional Requirements
 
@@ -86,7 +87,13 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Trigger:** The teacher introduces a lesson on calculating change and uses the application as a tool to demonstrate the concept.
   - **Main Success Scenario:** Students interact with the application, learn to calculate change accurately, and the teacher can track their progress.
   - **Postcondition:** Students gain confidence in their ability to give correct change, and the teacher receives feedback on their performance for further instruction.
-- Sean:
+- Sean: As a **teacher**, I have a large class and want to **see what is happening with the ones I cannot help in such a small amount of time** so that if any help is required to push that student or give them clarity, I can **model lesson planning or give a clearer indication of what to do to the student.**
+  - **Use Case:** See each child's tracked records
+  - **Primary Actor:** Teacher
+  - **Precondition:** Teacher has and uses QuickChange in their teachings.
+  - **Trigger:** The teacher does not have enough time throughout the allotted time to get to every student who needs help, and not all students will admit struggles.
+  - **Main Success Scenario:** The teacher is provided with a summarized detail of the class and with what each student has comleted/struggled/missed.
+  - **Postcondition:** Teacher is able to give more help to certain students or find what can be changed to support their learning and success.
 - Tate: As a **parent**, I want to be able to **view my child's progress at home** so that I can **support their learning and practice with them outside of school**.
   - **Use Case:** View Child Progress
   - **Primary Actor:** Parent of User/Child
@@ -125,12 +132,12 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 - James: **As a student**, I want to **receive immediate feedback** on whether I provided the correct amount of change so that I can **learn from my mistakes and adjust my approach**.
   - **Priority:** 9
   - **Estimated Hours:** 3 
-- Sean:
-  - **Priority:**
-  - **Estimated Hours:**
-- Sean:
-  - **Priority:**
-  - **Estimated Hours:**
+- Sean: **As a student**, I want to **see what went wrong if I got the wrong answer** so that I can **learn what I could do to move forward**.
+  - **Priority:** 7
+  - **Estimated Hours:** 6
+- Sean: **As a teacher**, I want to **see if my students are improving or staying the same** so that I can **see what is working or not**.
+  - **Priority:** 8
+  - **Estimated Hours:** 8
 - Tate: **As a teacher**, I want to **see an overview of my class** so that I can **plan future lessons around topics where students are struggling**.
   - **Priority:** 7
   - **Estimated Hours:** 10
