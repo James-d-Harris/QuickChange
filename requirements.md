@@ -119,7 +119,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     1a. Parents are unable to login to their user's/child's QuickChange account.
       1. System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
   - **Interface Sketch:**\
-  ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseInterfaceSketchTate.drawio%(20).png)
+  ![image](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseInterfaceSketchTate.drawio.png)
 - Tre: As a **student** I want to learn how to **handle money** so that I can **figure out the amount of change I am supposed to get back when buying things**.
   - **Use Case:** Handle Money
   - **Primary Actor:** Student
