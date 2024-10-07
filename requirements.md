@@ -108,8 +108,10 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     
     1a. Students struggle to select the correct currency
      1. Teacher provides additional instruction on the value of coins and bills
-  - **Interface Sketch**:
+  - **Use Case Diagram**:
     ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2.png)
+  - **Interface Sketch**
+  - ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2Sketch.png)
 
     
   - **Use Case:** Teach Change Calculation
