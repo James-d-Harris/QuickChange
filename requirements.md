@@ -69,7 +69,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.1 Use Case Diagrams
 
-![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseTate.drawio%20(1).png)
+![Model](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseTate.drawio%20(1).png)
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
@@ -118,7 +118,8 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Alternative Scenario(s):**\
     1a. Parents are unable to login to their user's/child's QuickChange account.
       1. System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
-  - **Interface Sketch:**
+  - **Interface Sketch:**\
+  ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseInterfaceSketchTate.drawio%(20).png)
 - Tre: As a **student** I want to learn how to **handle money** so that I can **figure out the amount of change I am supposed to get back when buying things**.
   - **Use Case:** Handle Money
   - **Primary Actor:** Student
