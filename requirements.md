@@ -134,8 +134,9 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   1a. Student completes transactions with customers
     1. Transactions are generally incorrect and student fails level
 
+
   - **Interface Sketch**:
-    ![image](images/tre student use case.png)
+    ![image]((https://github.com/James-d-Harris/QuickChange/blob/88f989b6190b77ca76983ee15b638e76e183ddcf/images/tre%20student%20use%20case.png))
 
 
 ## 7. User Stories
