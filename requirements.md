@@ -92,7 +92,26 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
      1. Student must re-enter valid username and password to save game progress
   - **Interface Sketch**:
     ![image](https://github.com/user-attachments/assets/a19f755a-e160-4d72-bf59-2a18767b638e)
-- James: As a **teacher**, I want to be able to **teach students how to calculate change effectively** so that they can **improve their financial literacy and practical math skills**.
+- **James - Use Case 2:** Teach students how to calculate change effectively
+  - **Actor:** Student
+  - **Trigger:** Teacher wants to instruct students using QuickChange to enhance their money-counting skills in a real-world context
+  - **Pre-condition:** Students have access to QuickChange and understand basic math concepts
+  - **Post-condition:** Students improve their ability to count money efficiently and accurately
+  - **Main Success Scenario:**
+    1. Teacher introduces QuickChange to students as a tool for learning how to count change
+    2. Teacher assigns a task where students must complete a level of the game
+    3. Students practice selecting the correct combination of coins and bills to match the requested amount
+    4. The game displays the total sum in real-time as students select currency
+    5. Students submit their total when they believe they have provided the correct change
+    6. QuickChange validates whether the submitted amount matches the requested amount, providing feedback
+  - **Alternate Scenarios**:
+    
+    1a. Students struggle to select the correct currency
+     1. Teacher provides additional instruction on the value of coins and bills
+  - **Interface Sketch**:
+    ![image]([https://github.com/user-attachments/assets/a19f755a-e160-4d72-bf59-2a18767b638e](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2.png))
+
+    
   - **Use Case:** Teach Change Calculation
   - **Primary Actor:** Teacher
   - **Precondition:** The teacher is using the QuickChange application in a classroom or learning environment.
