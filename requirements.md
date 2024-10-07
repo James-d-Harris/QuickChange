@@ -119,7 +119,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     - Parents are unable to login to their user's/child's QuickChange account.
       - System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
   - **Postconditions:** Parent(s) are able to successfully log on to their user's/child's QuickChange account and provide necessary help.
-- **Tre: Use Case 5:** Play game
+- **Tre: Use Case 5:** Play Level
   - **Primary Actor:** Student
   - **Trigger:** The student decides to play a level
   - **Precondition:** The student is logged in student mode in a learning environment.
