@@ -73,13 +73,25 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
-- Dazzion: As a **Student**, I want to **create an account in order to save and keep track of gaming progress**
-  - **Use Case:** Save Current Progress
-  - **Primary Actor:** Student
-  - **Precondition:** Has game progress and valid username and password
-  - **Trigger:** The student wants to save current progress
-  - **Main Success Scenario:** Student progresses in game, creates valid username/password, Saved data is linked to given username and stored in database
-  - **Postcondition:** Student can sign into account and retrieve saved progress from last login
+- **Dazzion - Use Case 1:** Create new account
+  - **Actor:** Student
+  - **Trigger:** User intends to save game progress
+  - **Pre-condition:** The student creates valid password and username
+  - **Post-condition:** Game progress is saved and linked to username and is retrievable
+  - **Main Success Scenario:**
+    1. Student progresses in game
+    3. Student Chooses to create an account
+    4. System requests valid password and username
+    5. System links entered login with saved progress
+  - **Alternate Scenarios**:
+    
+    1a. Student has no progress
+     1. Student may choose to create an account in the opening main menu
+        
+    2a. Student does not enter a valid username/password
+     1. Student must re-enter valid username and password to save game progress
+  - **Interface Sketch**:
+    ![image](https://github.com/user-attachments/assets/a19f755a-e160-4d72-bf59-2a18767b638e)
 - James: As a **teacher**, I want to be able to **teach students how to calculate change effectively** so that they can **improve their financial literacy and practical math skills**.
   - **Use Case:** Teach Change Calculation
   - **Primary Actor:** Teacher
