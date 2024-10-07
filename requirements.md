@@ -119,13 +119,24 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     - Parents are unable to login to their user's/child's QuickChange account.
       - System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
   - **Postconditions:** Parent(s) are able to successfully log on to their user's/child's QuickChange account and provide necessary help.
-- Tre: As a **student** I want to learn how to **handle money** so that I can **figure out the amount of change I am supposed to get back when buying things**.
-  - **Use Case:** Handle Money
+- **Tre: Use Case 5:** Play game
   - **Primary Actor:** Student
-  - **Precondition:** The student is using the application in student mode in a learning environment. 
-  - **Trigger:** The student needs to learn about currency in the classroom and thus opens the application as a direction of the teacher.
-  - **Main Success Scenario:**  The student starts learning about currency in a way that interests them.
-  - **Postcondition:** The student understands how currency works.
+  - **Trigger:** The student decides to play a level
+  - **Precondition:** The student is logged in student mode in a learning environment.
+  - **Postcondition:** The student completes the level
+  - **Main Success Scenario:**
+    1. Student starts playing a level
+    2. Student uses in game info to learn how to play level
+    3. Student completes transactions with customers
+    4. Student correctly completes transactions with customers and thus the level is completed successfully
+  - **Alternate Scenarios**:
+
+  1a. Student completes transactions with customers
+    1. Transactions are generally incorrect and student fails level
+
+  - **Interface Sketch**:
+    ![image](images/tre student use case.png)
+
 
 ## 7. User Stories
 
