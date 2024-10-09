@@ -161,7 +161,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 
   - **Interface Sketch**:
-    ![image](https://github.com/James-d-Harris/QuickChange/blob/tre's-req-md-changes/images/tre%20student%20use%20case.png)
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/fix-image/images/tre%20student%20use%20case.png)
 
 
 ## 7. User Stories
