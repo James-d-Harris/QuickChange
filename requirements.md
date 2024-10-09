@@ -69,7 +69,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 ### 6.1 Use Case Diagrams
 
-![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseTate.drawio%20(1).png)
+![Model](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseTate.drawio%20(1).png)
 
 ### 6.2 Use Case Descriptions and Interface Sketch
 
@@ -130,19 +130,20 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Trigger:** The teacher does not have enough time throughout the allotted time to get to every student who needs help, and not all students will admit struggles.
   - **Main Success Scenario:** The teacher is provided with a summarized detail of the class and with what each student has comleted/struggled/missed.
   - **Postcondition:** Teacher is able to give more help to certain students or find what can be changed to support their learning and success.
-- Tate: As a **parent**, I want to be able to **view my child's progress at home** so that I can **support their learning and practice with them outside of school**.
-  - **Use Case:** View Child Progress
-  - **Primary Actor:** Parent of User/Child
+- **Tate - Use Case 4:** View Child Progress
+  - **Actor:** Parent of User/Child
+  - **Trigger:** The parent(s) of a user/child want to view their child's progress.
   - **Precondition:** The parent has a child that uses QuickChange.
-  - **Trigger:** The parent(s) of a user/child are concerned with their child's money skills and want to provide support at home.
-  - **Main Success Scenario(s):**
-    - Parents of users/children are able to successfully login to the user's QuickChange account and view their progress on completed or in-progress levels.
-    - Parents can then reach out to the teacher or admin in charge of this user's/child's account and ask for advice on what they can do at home to help their child progress.
-    - Parents successfully are able to use strategies from the teacher to help their user/child better understand how to use money.
-  - **Alternative Scenario(s):**
-    - Parents are unable to login to their user's/child's QuickChange account.
-      - System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
   - **Postconditions:** Parent(s) are able to successfully log on to their user's/child's QuickChange account and provide necessary help.
+  - **Main Success Scenario(s):**
+    1. Parents of users/children are able to successfully login and view child's progress.
+    2. Parents reach out to the teacher or admin in charge of this user's/child's account and ask for advice on what they can do at home to help their child progress.
+    3. Parents successfully are able to use strategies from the teacher to help their user/child better understand how to use money.
+  - **Alternative Scenario(s):**\
+    1a. Parents are unable to login to their user's/child's QuickChange account.
+      1. System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
+  - **Interface Sketch:**\
+  ![image](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseInterfaceSketchTate.drawio.png)
 - **Tre: Use Case 5:** Play Level
   - **Primary Actor:** Student
   - **Trigger:** The student decides to play a level
