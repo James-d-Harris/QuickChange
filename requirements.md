@@ -118,11 +118,19 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 - Sean: As a **teacher**, I have a large class and want to **see what is happening with the ones I cannot help in such a small amount of time** so that if any help is required to push that student or give them clarity, I can **model lesson planning or give a clearer indication of what to do to the student.**
   - **Use Case:** See each child's tracked records
-  - **Primary Actor:** Teacher
-  - **Precondition:** Teacher has and uses QuickChange in their teachings.
+  - **Actor:** Teacher
   - **Trigger:** The teacher does not have enough time throughout the allotted time to get to every student who needs help, and not all students will admit struggles.
-  - **Main Success Scenario:** The teacher is provided with a summarized detail of the class and with what each student has comleted/struggled/missed.
+  - **Precondition:** Teacher has and uses QuickChange in their teachings.
   - **Postcondition:** Teacher is able to give more help to certain students or find what can be changed to support their learning and success.
+  - **Main Success Scenario:** 
+    1. Teacher recieves a list of information reguarding the student's progress
+    2. Teacher relays information to student about possible help for success
+    3. Teacher has a wider understanding of students struggling the most
+  - **Alternative Scenario(s):**\
+    1a. Teacher needs more information about what to help student with
+      1. Teacher can click on student name and it will show more statistical information of student selected
+  - **Interface Sketch:**\
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseSean.JPG)
 - **Tate - Use Case 4:** View Child Progress
   - **Actor:** Parent of User/Child
   - **Trigger:** The parent(s) of a user/child want to view their child's progress.
