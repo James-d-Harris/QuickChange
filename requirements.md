@@ -130,6 +130,8 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
   - **Trigger:** The teacher does not have enough time throughout the allotted time to get to every student who needs help, and not all students will admit struggles.
   - **Main Success Scenario:** The teacher is provided with a summarized detail of the class and with what each student has comleted/struggled/missed.
   - **Postcondition:** Teacher is able to give more help to certain students or find what can be changed to support their learning and success.
+  - **Interface Sketch**:
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/fix-image/images/UseCaseSean.jpg)
 - **Tate - Use Case 4:** View Child Progress
   - **Actor:** Parent of User/Child
   - **Trigger:** The parent(s) of a user/child want to view their child's progress.
