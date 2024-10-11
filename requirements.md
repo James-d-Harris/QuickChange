@@ -114,15 +114,8 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     
   - **Interface Sketch**
   
-  - ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2Sketch.png)
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2Sketch.png)
 
-    
-  - **Use Case:** Teach Change Calculation
-  - **Primary Actor:** Teacher
-  - **Precondition:** The teacher is using the QuickChange application in a classroom or learning environment.
-  - **Trigger:** The teacher introduces a lesson on calculating change and uses the application as a tool to demonstrate the concept.
-  - **Main Success Scenario:** Students interact with the application, learn to calculate change accurately, and the teacher can track their progress.
-  - **Postcondition:** Students gain confidence in their ability to give correct change, and the teacher receives feedback on their performance for further instruction.
 - Sean: As a **teacher**, I have a large class and want to **see what is happening with the ones I cannot help in such a small amount of time** so that if any help is required to push that student or give them clarity, I can **model lesson planning or give a clearer indication of what to do to the student.**
   - **Use Case:** See each child's tracked records
   - **Actor:** Teacher
@@ -168,7 +161,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     1. Transactions are generally incorrect and student fails level
 
 
-  - **Interface Sketch**:
+  - **Interface Sketch**:\
     ![image](https://github.com/James-d-Harris/QuickChange/blob/fix-image/images/tre%20student%20use%20case.png)
 
 
