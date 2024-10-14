@@ -10,7 +10,7 @@ For kids that have trouble counting change or for elementary schools and online 
 
 ## 2. Model
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/analysis-development/images/UMLDiagramD3.drawio.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/analysis-development/images/UMLDiagramD3UPDATED.png)
 
 ## 3. Class Responsibilities
 
