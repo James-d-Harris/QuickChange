@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 /* 
    This difficulty class is meant to define a difficulty in each level of QuickChange 
    by providing set maximum values for key elements that which math operations should 
    be taken on.
 */
+
 public class DifficultyClass : MonoBehaviour
 {
     public string levelDifficulty; // String meant to be set to easy, normal, or hard
