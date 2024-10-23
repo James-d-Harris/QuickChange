@@ -63,7 +63,7 @@ public class DifficultyClass : MonoBehaviour
         return levelDifficulty;
     }
 
-    bool validateDifficulty( int balance, int tender )
+    bool validateDifficulty( double balance, double tender )
     {
         // Checks if problem parameters are within correct range
         return balance <= balanceMax && tender <= tenderMax;
