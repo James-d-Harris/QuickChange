@@ -5,14 +5,14 @@ using System.Collections;
 public class Currency : MonoBehaviour
 {
 	// define attributes
-	public string name;
+	public string coinName;
 	public double monetaryValue;
 
 	// currency constructor
 	public Currency( string name, double value )
 	{
 		// initialize variables
-		this.name = name;
+		this.coinName = name;
 		this.monetaryValue = value;
 	}
 
