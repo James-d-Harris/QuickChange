@@ -1,7 +1,3 @@
-/*
-Work in progress, check with James code in GitHub
-*/
-
 using UnityEngine;
 using System.Collections;
 
@@ -11,7 +7,7 @@ public class Register : MonoBehaviour
 	// define attributes
 	public double startingBalance;
 	public double endingBalance;
-	public Currency[] allCurrency;
+	public list<Currency> allCurrency;
 
 	// register constructor
 	public Register( double startingBalance )
@@ -19,7 +15,7 @@ public class Register : MonoBehaviour
 		// initialize values
 		this.startingBalance = startingBalance;
 		endingBalance = startingBalance; // can be set later when needed
-		allCurrency = new Currency[10]; // example array size, can be set later
+		allCurrency = new List<Currency>(); // empty list
 	}
 
 	// method to count drawer balance
@@ -56,7 +52,7 @@ public class Register : MonoBehaviour
 		{
 			// notify user
 				// functions: Debug.Log
-			Debug.Log( "Error, insufficient funds to give exact change." );
+			Debug.LogError( "Error, insufficient funds to give exact change." );
 
 			// return false
 			return false;
@@ -65,8 +61,8 @@ public class Register : MonoBehaviour
 		// create and initialize variable to track reminaing amount of change
 		double remainingAmount = amount;
 
-		// lopp up to the end of the length of all curency in register
-		for ( int index = 0; index < allCurrency.Length; index++ )
+		// loop up to the end of the length of all curency in register
+		for ( int index = 0; index < allCurrency.Count && remainingAmount > 0; index++ )
 		{
 			// check that current index of currency array is not null and remaining balance is greater than 0
 			if ( allCurrency[ index ] != null && remainingAmount > 0 )
@@ -100,7 +96,7 @@ public class Register : MonoBehaviour
 		// otherwise, exact change cannot be given
 			// notify user
 				// functions: Debug.Log
-		Debug.Log( "Error, insufficient funds to give exact change." );
+		Debug.LogError( "Error, insufficient funds to give exact change." );
 
 		// return false
 		return false;
