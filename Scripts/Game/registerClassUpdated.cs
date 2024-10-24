@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 // register class
 public class Register : MonoBehaviour
@@ -7,7 +8,7 @@ public class Register : MonoBehaviour
 	// define attributes
 	public double startingBalance;
 	public double endingBalance;
-	public list<Currency> allCurrency;
+	public List<Currency> allCurrency;
 
 	// register constructor
 	public Register( double startingBalance )
