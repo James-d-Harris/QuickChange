@@ -32,4 +32,4 @@ public class CoinSumDisplay : MonoBehaviour
     {
         sumDisplay.Text = "Total: $" + currentSum.ToString( "F2" );
     }
-}}
+}
