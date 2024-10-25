@@ -4,7 +4,7 @@ using UnityEngine;
 public class Student
 {
     // Static attribute for current difficulty
-    // public static Difficulty currentDifficulty;
+    public static DifficultyClass currentDifficulty;
 
     // Instance attributes for student progress
     private int successfulLevels;
@@ -48,14 +48,14 @@ public class Student
     // Adjust the difficulty based on performance
     private void adjustDifficulty(bool success)
     {
-        // if (success)
-        // {
-        //     currentDifficulty.IncreaseDifficulty();
-        // }
-        // else
-        // {
-        //     currentDifficulty.DecreaseDifficulty();
-        // }
+        if (success)
+        {
+            currentDifficulty.increaseDifficulty();
+        }
+        else
+        {
+            currentDifficulty.decreaseDifficulty();
+        }
     }
 
     // Method to start a level (implementation depends on game logic)
