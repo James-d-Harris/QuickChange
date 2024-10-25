@@ -1,37 +1,36 @@
 using UnityEngine;
+using UnityEngine.UI;  // Add this for the Text component
 using System.Collections;
-using TMPro;
-
 
 public class CoinSumDisplay : MonoBehaviour
 {
-    // define attributes
-    public TMP_Text sumDisplay; // UI element
-    private double currentSum; // to track sum of coins counted
+    // Define attributes
+    public Text sumDisplay; // UI element for displaying the sum
+    private double currentSum; // To track sum of coins counted
 
-    // start method
+    // Start method
     void Start()
     {
-        // initialize current sum
+        // Initialize current sum
         currentSum = 0.0;
 
-        // update the display
+        // Update the display
         UpdateDisplay();
     }
 
-    // method to add coins and bills when they are dragged out
-    public void AddCoin ( Currency money )
+    // Method to add coins and bills when they are dragged out
+    public void AddCoin(Currency money)
     {
-        // update current sum
+        // Update current sum
         currentSum += money.monetaryValue;
 
-        // update the display
+        // Update the display
         UpdateDisplay();
     }
 
-    // update the UI display with the nwe sum
+    // Update the UI display with the new sum
     private void UpdateDisplay()
     {
-        sumDisplay.Text = "Total: $" + currentSum.ToString( "F2" );
+        sumDisplay.text = "Total: $" + currentSum.ToString("F2");  // Use .text instead of .Text
     }
 }
