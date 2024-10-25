@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using TMPro;
 
+
 public class CoinSumDisplay : MonoBehaviour
 {
     // define attributes
@@ -31,6 +32,6 @@ public class CoinSumDisplay : MonoBehaviour
     // update the UI display with the nwe sum
     private void UpdateDisplay()
     {
-        sumDisplay.text = "Total: $" + currentSum.ToString( "F2" );
+        sumDisplay.Text = "Total: $" + currentSum.ToString( "F2" );
     }
 }
