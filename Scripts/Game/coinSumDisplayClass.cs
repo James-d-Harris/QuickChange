@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class CoinSumDisplay : MonoBehaviour
 {
     // define attributes
-    public Text sumDisplay; // UI element
-    private double currentSum // to track sum of coins counted
+    public TMP_Text sumDisplay; // UI element
+    private double currentSum; // to track sum of coins counted
 
     // start method
     void Start()
@@ -30,6 +31,6 @@ public class CoinSumDisplay : MonoBehaviour
     // update the UI display with the nwe sum
     private void UpdateDisplay()
     {
-        sumDisplay.Text = "Total: $" + currentSum.ToString( "F2" );
+        sumDisplay.text = "Total: $" + currentSum.ToString( "F2" );
     }
-}}
+}
