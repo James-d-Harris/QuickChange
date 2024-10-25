@@ -69,7 +69,7 @@ public class DifficultyClass : MonoBehaviour
         return balance <= balanceMax && tender <= tenderMax;
     }
 
-    void increaseDifficulty()
+    public void increaseDifficulty()
     {
         switch (levelDifficulty)
         {
@@ -88,7 +88,7 @@ public class DifficultyClass : MonoBehaviour
         }
     }
 
-    void decreaseDifficulty()
+    public void decreaseDifficulty()
     {
         switch (levelDifficulty)
         {
