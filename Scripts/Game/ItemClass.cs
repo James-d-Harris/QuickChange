@@ -6,16 +6,16 @@ public class ItemClass : MonoBehaviour
 {
     public class smallItem : Currency
     {
-        public smallItem() : base("Nickel", 0.05) { }
+        public smallItem() : base("Small Item", 1.00) { }
     }
 
     public class mediumItem : Currency
     {
-        public mediumItem() : base("Quarter", 0.25) { }
+        public mediumItem() : base("Medium Item", 5.00) { }
     }
 
     public class largeItem : Currency
     {
-        public largeItem() : base("One Dollar", 1.00) { }
+        public largeItem() : base("Large Item", 10.00) { }
     }
 }
