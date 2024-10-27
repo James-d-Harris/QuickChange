@@ -27,3 +27,15 @@ The gameplay of QuickChange will consist of having students interact with npc cu
 **Approved By:**
 
 **Screenshot:** (if applicable)
+
+## 3. Tests
+
+## 4. Adopted Technologies
+- Unity: The game engine used for QuickChange, manages game logic and visuals including          the controls and content within each level
+- MongoDB: Stores saved information regarding all student and teacher accounts. Keeps              track of students progress and current difficulty level, that is then to be 
+           reported to students associated instructor
+  
+## 5. Learning/Training
+The training for learning our adopted technologies consists of a mix of group collaboration and individual research with resources such as YouTube and other online forums
+
+## 6. Deployment
