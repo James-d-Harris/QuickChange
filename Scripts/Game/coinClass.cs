@@ -5,7 +5,9 @@ using System.Collections;
 public class Currency : MonoBehaviour
 {
 	// define attributes
+
 	public string currencyName;
+
 	public double monetaryValue;
 	Vector3 mousePosition;
 	public float moveSpeed = 0.1f;
@@ -17,6 +19,7 @@ public class Currency : MonoBehaviour
 	// update method
 	public void Update()
 	{
+
 		// check if left mouse button is clicked and over object
 		if ( Input.GetMouseButtonDown( 0 ) )
 		{
@@ -59,6 +62,7 @@ public class Currency : MonoBehaviour
 			// set object position to mouse position to ensure that it follows the cursor
 			transform.position = Vector3.Lerp( transform.position, mousePosition, moveSpeed );
 		}
+
 	}
 
     public void SnapToTable()

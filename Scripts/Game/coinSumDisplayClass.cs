@@ -6,7 +6,9 @@ public class CoinSumDisplay : MonoBehaviour
 {
     // Define attributes
     public Text sumDisplay; // UI element for displaying the sum
+
     public double currentSum; // To track sum of coins counted
+
 
     // Start method
     void Start()
@@ -28,6 +30,7 @@ public class CoinSumDisplay : MonoBehaviour
         UpdateDisplay();
     }
 
+
     // Method to remove coins and bills when they are dragged out
     public void RemoveCoin(Currency money)
     {
@@ -42,5 +45,6 @@ public class CoinSumDisplay : MonoBehaviour
     private void UpdateDisplay()
     {
         sumDisplay.text = "Total: $" + currentSum.ToString("F2");  // Use .text instead of .Text
+
     }
 }

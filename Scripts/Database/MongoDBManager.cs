@@ -12,7 +12,7 @@ public class MongoDBManager : MonoBehaviour
     private IMongoCollection<BsonDocument> collection;
 
     // MongoDB connection string
-    private string connectionString = "mongodb+srv://UnityAccess:UpUuwujgAUnzUoro@cluster0.drcxz.mongodb.net/?retryWrites=true&w=majority";
+    private string connectionString = "mongodb+srv://UnityAccess:OtWxkxbZljrZqSBv@cluster0.drcxz.mongodb.net/?retryWrites=true&w=majority";
     private string databaseName = "QuickChangeDB";
     private string collectionName = "general"; // Change based on the school's collection
 
