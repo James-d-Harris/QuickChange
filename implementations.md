@@ -69,7 +69,6 @@ Implemented Testing: https://github.com/James-d-Harris/QuickChange/blob/Scripts/
 
 Test Case Example: testSetDifficulty() function tests that the set difficulty actually changes difficulty.
 ```
-public void testAddCoin()
 public void testSetDifficulty()
 {
     string result = "easy";
