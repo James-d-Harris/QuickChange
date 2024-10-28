@@ -9,6 +9,7 @@ public class LoginUI : MonoBehaviour
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
     public TMP_Text feedbackText;
+    public TMP_Text titleText;
     public Button loginButton;  // Added loginButton to reference the button
     public MongoDBManager mongoDBManager;
     public Canvas canvas;
@@ -34,7 +35,7 @@ public class LoginUI : MonoBehaviour
         if (isAuthenticated)
         {
             feedbackText.text = "Login successful!";
-            OnLoginSuccess?.Invoke(); // No arguments needed now
+            OnLoginSuccess?.Invoke();
         }
         else
         {
@@ -84,6 +85,15 @@ public class LoginUI : MonoBehaviour
     // Method to adjust and parent the input fields and feedback text
     private void AdjustUIElements()
     {
+        // Reparent the feedback text to the info container
+        titleText.transform.SetParent(GameObject.Find("InfoContainer").transform, false);
+        RectTransform titleRect = titleText.GetComponent<RectTransform>();
+        titleRect.anchorMin = new Vector2(0.5f, 0.5f);
+        titleRect.anchorMax = new Vector2(0.5f, 0.5f);
+        titleRect.sizeDelta = new Vector2(500, 200);
+        titleRect.anchoredPosition = new Vector2(0, 140);
+        titleText.fontSize = 70;
+
         // Reparent the username input field to the info container
         usernameInput.transform.SetParent(GameObject.Find("InfoContainer").transform, false);
         RectTransform usernameRect = usernameInput.GetComponent<RectTransform>();
