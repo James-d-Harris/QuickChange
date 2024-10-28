@@ -32,6 +32,6 @@ public class CoinSumDisplay : MonoBehaviour
     // update the UI display with the nwe sum
     private void UpdateDisplay()
     {
-        sumDisplay.Text = "Total: $" + currentSum.ToString( "F2" );
+        sumDisplay.text = "Total: $" + currentSum.ToString( "F2" );
     }
 }
