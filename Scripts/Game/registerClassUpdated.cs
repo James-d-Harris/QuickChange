@@ -169,11 +169,10 @@ public class Register: MonoBehaviour {
 					canvas.worldCamera,
 					out canvasPosition
 				);
+
+				rectTransform.anchoredPosition = canvasPosition;
+				rectTransform.localScale = Vector3.one;
 			}
-
-
-
-
 
 			Currency currencyInstance = currencyObject.GetComponent<Currency>();
 
