@@ -27,13 +27,33 @@ QuickChange is an educational application designed to help young individuals lea
 - [ ] Visual and audio polish, including background music and advanced animations.
 - [ ] Multiple difficulty settings with unlockable content.
 
-## Technologies Used
+## Getting Started
+Intructions for installing QuickChange and required software
+
+## Installing
+(Should contain each step contain step by step of installing QuickChange)
+```
+
+```
+
+## Running Automated Tests
+
+## Deployment
+
+## Built With
 - **Unity**: Used to develop the application, providing a robust engine for both 2D and 3D interactive environments.
 - **C#**: The main programming language used within Unity for scripting game mechanics and logic.
 
-## Contributors
+## Contributing
+
+## Versioning
+
+## Authors
 - **[James Harris](https://github.com/James-d-Harris)**
 - **[Sean Weston](https://github.com/ItzPongo)**
 - **[Tate Whittaker](https://github.com/trw286)**
 - **[Dazz Porter](https://github.com/dazzporter)**
 - **[Jerry Kelley](https://github.com/castdeath7)**
+## License
+
+## Acknowledgments
