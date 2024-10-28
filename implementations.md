@@ -75,7 +75,17 @@ The training for learning our adopted technologies consists of a mix of group co
 
 ## 7. Licensing
 
+For our project we adopted the MIT license. The reason we decided on this licesning is because it allows any person to obtain our software and modify it as they see fit. 
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+[Our License]()
+
 ## 8. README File
+
+[README.md](https://github.com/James-d-Harris/QuickChange/blob/main/README.md)
+
+
 
 ## 9. Look & Feel 
 
