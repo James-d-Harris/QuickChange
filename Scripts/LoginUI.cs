@@ -109,6 +109,8 @@ public class LoginUI : MonoBehaviour
         passwordRect.anchorMax = new Vector2(0.5f, 0.5f);
         passwordRect.sizeDelta = new Vector2(300, 40);
         passwordRect.anchoredPosition = new Vector2(0, 20);
+        passwordInput.contentType = TMP_InputField.ContentType.Password;
+        passwordInput.ForceLabelUpdate();
 
         // Reparent the feedback text to the info container
         feedbackText.transform.SetParent(GameObject.Find("InfoContainer").transform, false);
