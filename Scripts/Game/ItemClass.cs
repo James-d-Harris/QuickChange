@@ -14,12 +14,12 @@ public class ItemClass : MonoBehaviour
     // medium item class
     public class mediumItem : Currency
     {
-        public mediumItem() : base("Medium Item", 24.99) { }
+        public mediumItem() : base("Medium Item", 49.99) { }
     }
 
     // large item class
     public class largeItem : Currency
     {
-        public largeItem() : base("Large Item", 49.99) { }
+        public largeItem() : base("Large Item", 99.99) { }
     }
 }

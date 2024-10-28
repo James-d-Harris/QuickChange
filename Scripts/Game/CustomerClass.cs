@@ -33,40 +33,56 @@ public class customerInfo : MonoBehaviour
         customerDifficulty = difficultyClass.levelDifficulty;
         customerMaxMoney = difficultyClass.balanceMax;
 
+        // get a random amount of items
+        System.Random rand = new System.Random();
+
+        int numItems = rand.Next(1, 11);
+
+
+
         // define what is specified for each level
         switch (customerDifficulty)
         {
             // easy difficulty deals with the simple items and small numbers
             case "easy":
-                // get a random amount of items
+                // create a new instance of small item to use the information
+                ItemClass.smallItem smallItemInstance = new ItemClass.smallItem();
 
                 // multiply small item by amount
+                totalForItems = smallItemInstance.monetaryValue * numItems;
 
                 // add tax to total
+                totalForItems = totalForItems * 1.1;
                 break;
 
             // normal difficulty deals with larger numbers and more items
             case "normal":
-                // get a random amount of items
+                // create a new instance of medium item to use the information
+                ItemClass.mediumItem mediumItemInstance = new ItemClass.mediumItem();
 
-                // multiply medium item by amount
+                // multiply small item by amount
+                totalForItems = mediumItemInstance.monetaryValue * numItems;
 
                 // add tax to total
+                totalForItems = totalForItems * 1.1;
                 break;
 
             // hard difficulty deals with the big items and bigger money total
             case "hard":
-                // get a random amount of items
+                // create a new instance of small item to use the information
+                ItemClass.largeItem largeItemInstance = new ItemClass.largeItem();
 
-                // multiply large item by amount
+                // multiply small item by amount
+                totalForItems = largeItemInstance.monetaryValue * numItems;
 
                 // add tax to total
+                totalForItems = totalForItems * 1.1;
                 break;
         }
 
         // give a random amount of money between the amount total for the items and
         // max spending given the level
-        customerMoneyGivenToUser = GetRandomDouble(1.00, customerMaxMoney + 1.00);
+        customerMoneyGivenToUser = GetRandomDouble(totalForItems + 1.00, customerMaxMoney + 1.00);
     }
 
     // get a random value between two specified numbers
