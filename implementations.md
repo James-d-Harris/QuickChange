@@ -72,6 +72,8 @@ The gameplay of QuickChange will consist of having students interact with npc cu
 The training for learning our adopted technologies consists of a mix of group collaboration and individual research with resources such as YouTube and other online forums. As for Unity, there are built-in tutorial for how to create 2D games.
 
 ## 6. Deployment
+We will be deploying our software through mongoDB (https://www.mongodb.com/) and direct on system software. MongoDB will host the data that our game needs to check for each user in order to determine whether or not the user can use the software, and in what capacity. For example, if the user is a student it will allow certain permissions, and will pull information from mongoDB that was previously saved in order to determine the user's grade level.
+
 
 ## 7. Licensing
 
