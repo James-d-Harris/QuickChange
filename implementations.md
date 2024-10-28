@@ -63,6 +63,25 @@ The gameplay of QuickChange will consist of having students interact with npc cu
 **Screenshot:** (if applicable)
 
 ## 3. Tests
+**Test Framwork:** NUnit.Framework (Unity's recommended testing library)
+
+Implemented Testing: https://github.com/James-d-Harris/QuickChange/blob/Scripts/Game/AutomatedTesting.cs
+
+Test Case Example: testSetDifficulty() function tests that the set difficulty actually changes difficulty.
+```
+public void testAddCoin()
+public void testSetDifficulty()
+{
+    string result = "easy";
+    DifficultyClass testDifficulty = new DifficultyClass();
+
+    testDifficulty.setDifficulty("easy");
+
+    Assert.AreEqual( result, testDifficulty.getDifficulty(), "Error: Difficulty level was not set" );
+
+    testDifficulty = null;
+}
+```
 
 ## 4. Adopted Technologies
 - Unity: The game engine used for QuickChange, manages game logic and visuals including the controls and content within each level.
