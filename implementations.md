@@ -16,15 +16,51 @@ The gameplay of QuickChange will consist of having students interact with npc cu
 
 (Temporary Template)
 
-**Requirement:**
+**Requirement:** ***As a user, I want to be able to login so that I can save my progress as I play the game.***
 
-**Issue:**
+**Issue:** https://github.com/James-d-Harris/QuickChange/issues/55
 
-**Pull Request:**
+**Pull Request:** https://github.com/James-d-Harris/QuickChange/pull/54
 
-**Implemented By:**
+**Implemented By:** James Harris
 
-**Approved By:**
+**Approved By:** Dazzion Porter
+
+**Screenshot:** (if applicable)
+
+**Requirement:** ***As a student, I want to be able to use real world currency and work in an enviorment that is applicable to everyday life so that I can learn how to use money for in-person transaction.***
+
+**Issue:** https://github.com/James-d-Harris/QuickChange/issues/56, https://github.com/James-d-Harris/QuickChange/issues/57, and https://github.com/James-d-Harris/QuickChange/issues/62
+
+**Pull Request:** https://github.com/James-d-Harris/QuickChange/pull/61, https://github.com/James-d-Harris/QuickChange/pull/63, https://github.com/James-d-Harris/QuickChange/pull/65, https://github.com/James-d-Harris/QuickChange/pull/66, and https://github.com/James-d-Harris/QuickChange/pull/69
+
+**Implemented By:** Tate Whittaker and Tre Kelley
+
+**Approved By:** Dazzion Porter
+
+**Screenshot:** (if applicable)
+
+**Requirement:** ***As a teacher, I want to be able to increase or decrease the difficulty of the levels so that my students can learn appropriately.***
+
+**Issue:** https://github.com/James-d-Harris/QuickChange/issues/73
+
+**Pull Request:** https://github.com/James-d-Harris/QuickChange/pull/59 and https://github.com/James-d-Harris/QuickChange/pull/60
+
+**Implemented By:** Dazzion Porter
+
+**Approved By:** Tate Whittaker
+
+**Screenshot:** (if applicable)
+
+**Requirement:** ***As a teacher, I want to be there to be different customers and items for my students to interact with so that they are interested in the game, and therefore learning about money.***
+
+**Issue:** https://github.com/James-d-Harris/QuickChange/issues/74
+
+**Pull Request:** https://github.com/James-d-Harris/QuickChange/pull/59 and https://github.com/James-d-Harris/QuickChange/pull/60
+
+**Implemented By:** Sean Weston
+
+**Approved By:** Dazzion Porter
 
 **Screenshot:** (if applicable)
 
