@@ -13,6 +13,9 @@ public class customerInfo : MonoBehaviour
     // max amount of money a customer can spend
     public double customerMaxMoney;
 
+    // amount of money total items costs
+    public double totalForItems;
+
     // amount of money a customer gives to the user
     public double customerMoneyGivenToUser;
 
