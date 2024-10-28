@@ -14,6 +14,9 @@ public class LoginUI : MonoBehaviour
     public MongoDBManager mongoDBManager;
     public Canvas canvas;
 
+
+    private GameObject panelObject;
+
     // Event without parameters
     public event System.Action OnLoginSuccess;
 
@@ -36,6 +39,7 @@ public class LoginUI : MonoBehaviour
         {
             feedbackText.text = "Login successful!";
             OnLoginSuccess?.Invoke();
+            Destroy(panelObject);
         }
         else
         {
@@ -48,7 +52,7 @@ public class LoginUI : MonoBehaviour
     {
 
         // Create a Panel as the backdrop (Optional if you want a transparent overlay)
-        GameObject panelObject = new GameObject("BackdropPanel");
+        panelObject = new GameObject("BackdropPanel");
         panelObject.transform.SetParent(canvas.transform, false);
 
         // Add an Image component to the panel (used for the background color and opacity)
@@ -91,7 +95,7 @@ public class LoginUI : MonoBehaviour
         titleRect.anchorMin = new Vector2(0.5f, 0.5f);
         titleRect.anchorMax = new Vector2(0.5f, 0.5f);
         titleRect.sizeDelta = new Vector2(500, 200);
-        titleRect.anchoredPosition = new Vector2(0, 140);
+        titleRect.anchoredPosition = new Vector2(0, 160);
         titleText.fontSize = 70;
 
         // Reparent the username input field to the info container
