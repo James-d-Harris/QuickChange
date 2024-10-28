@@ -8,18 +8,18 @@ public class ItemClass : MonoBehaviour
     // small item class
     public class smallItem : Currency
     {
-        public smallItem() : base("Small Item", 4.99) { }
+        public smallItem() : base("Small Item", 9.99) { }
     }
 
     // medium item class
     public class mediumItem : Currency
     {
-        public mediumItem() : base("Medium Item", 9.99) { }
+        public mediumItem() : base("Medium Item", 24.99) { }
     }
 
     // large item class
     public class largeItem : Currency
     {
-        public largeItem() : base("Large Item", 24.99) { }
+        public largeItem() : base("Large Item", 49.99) { }
     }
 }

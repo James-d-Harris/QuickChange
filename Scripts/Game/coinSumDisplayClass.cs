@@ -31,6 +31,10 @@ public class CoinSumDisplay : MonoBehaviour
     // Update the UI display with the new sum
     private void UpdateDisplay()
     {
+<<<<<<< user-classes
+        sumDisplay.text = "Total: $" + currentSum.ToString("F2");
+=======
         sumDisplay.text = "Total: $" + currentSum.ToString("F2");  // Use .text instead of .Text
+>>>>>>> main
     }
 }
