@@ -65,9 +65,10 @@ The gameplay of QuickChange will consist of having students interact with npc cu
 ## 3. Tests
 **Test Framwork:** NUnit.Framework (Unity's recommended testing library)
 
-Implemented Testing: https://github.com/James-d-Harris/QuickChange/blob/Scripts/Game/AutomatedTesting.cs
+Implemented Testing: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/AutomatedTesting.cs
 
 Test Case Example: testSetDifficulty() function tests that the set difficulty actually changes difficulty.
+Test Case Class: DifficultyClass
 ```
 public void testSetDifficulty()
 {
