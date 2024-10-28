@@ -18,13 +18,13 @@ public class Register: MonoBehaviour {
 	public GameObject fivePrefab;
 	public GameObject tenPrefab;
 
-	public Collider2D pennyCollider;
-	public Collider2D nickleCollider;
-	public Collider2D dimeCollider;
-	public Collider2D quarterCollider;
-	public Collider2D dollarCollider;
-	public Collider2D fiveCollider;
-	public Collider2D tenCollider;
+	public GameObject pennyPos;
+	public GameObject nicklePos;
+	public GameObject dimePos;
+	public GameObject quarterPos;
+	public GameObject dollarPos;
+	public GameObject fivePos;
+	public GameObject tenPos;
 
 	public Canvas canvas;
 
@@ -142,37 +142,29 @@ public class Register: MonoBehaviour {
   private void populateRegister() {
 	allCurrency.Clear();
 
-	CreateCurrencyInstances(pennyPrefab, pennyCollider, "Penny");
-	CreateCurrencyInstances(nicklePrefab, nickleCollider, "Nickle");
-	CreateCurrencyInstances(dimePrefab, dimeCollider, "Dime");
-	CreateCurrencyInstances(quarterPrefab, quarterCollider, "Quarter");
-	CreateCurrencyInstances(dollarPrefab, dollarCollider, "Dollar");
-	CreateCurrencyInstances(fivePrefab, fiveCollider, "Five");
-	CreateCurrencyInstances(tenPrefab, tenCollider, "Ten");
+	CreateCurrencyInstances(pennyPrefab, pennyPos, "Penny");
+	CreateCurrencyInstances(nicklePrefab, nicklePos, "Nickle");
+	CreateCurrencyInstances(dimePrefab, dimePos, "Dime");
+	CreateCurrencyInstances(quarterPrefab, quarterPos, "Quarter");
+	CreateCurrencyInstances(dollarPrefab, dollarPos, "Dollar");
+	CreateCurrencyInstances(fivePrefab, fivePos, "Five");
+	CreateCurrencyInstances(tenPrefab, tenPos, "Ten");
 
 	Debug.Log("Register succesfully populated");
+	Debug.Log(allCurrency);
   }
 
 
-  private void CreateCurrencyInstances(GameObject prefab, Collider2D collider, string currencyType) {
-	if( currencyCounts.TryGetValue(currencyType, out int count)){
+  private void CreateCurrencyInstances(GameObject prefab, GameObject spawnPos, string currencyType) {
+	if( currencyCounts.TryGetValue(currencyType, out int count)) {
 		for ( int i = 0; i < count; i++ ) {
-			Vector3 worldPosition = GetRandomPositionInCollider(collider);
+			Vector3 randomOffset = new Vector3(
+                Random.Range(-0.1f, 0.1f), // Adjust range as needed
+                Random.Range(-0.1f, 0.1f),
+            	0);
+
+			Vector3 worldPosition = spawnPos.transform.position + randomOffset;
 			GameObject currencyObject = Instantiate(prefab, worldPosition, prefab.transform.rotation);
-
-			RectTransform rectTransform = currencyObject.GetComponent<RectTransform>();
-			if( rectTransform != null ) {
-				Vector2 canvasPosition;
-				RectTransformUtility.ScreenPointToLocalPointInRectangle(
-					canvas.GetComponent<RectTransform>(),
-					Camera.main.WorldToScreenPoint(worldPosition),
-					canvas.worldCamera,
-					out canvasPosition
-				);
-
-				rectTransform.anchoredPosition = canvasPosition;
-				rectTransform.localScale = Vector3.one;
-			}
 
 			Currency currencyInstance = currencyObject.GetComponent<Currency>();
 
@@ -183,12 +175,5 @@ public class Register: MonoBehaviour {
 			}
 		}
 	}
-  }
-
-  private Vector3 GetRandomPositionInCollider(Collider2D collider) {
-	Bounds bounds = collider.bounds;
-	float randomX = Random.Range(bounds.min.x, bounds.max.x);
-	float randomY = Random.Range(bounds.min.y, bounds.max.y);
-	return new Vector3(randomX, randomY, 0);
   }
 }
