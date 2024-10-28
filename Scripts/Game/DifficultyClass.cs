@@ -48,22 +48,32 @@ public class DifficultyClass : MonoBehaviour
         }
     }
 
-    void initializeDifficulty()
+    public void initializeDifficulty()
     {
         levelDifficulty = "easy";
     }
 
-    void setDifficulty( string levelSetting )
+    public void setDifficulty( string levelSetting )
     {
         levelDifficulty = levelSetting.ToLower();
     }
 
-    string getDifficulty()
+    public string getDifficulty()
     {
         return levelDifficulty;
     }
 
-    bool validateDifficulty( double balance, double tender )
+    public double getBalanceMax()
+    {
+        return balanceMax;
+    }
+
+    public double getTenderMax()
+    {
+        return tenderMax;
+    }
+
+    public bool validateDifficulty( double balance, double tender )
     {
         // Checks if problem parameters are within correct range
         return balance <= balanceMax && tender <= tenderMax;
@@ -71,6 +81,7 @@ public class DifficultyClass : MonoBehaviour
 
     public void increaseDifficulty()
     {
+        // Increases each possible difficulty setting by one level
         switch (levelDifficulty)
         {
             case "easy":
@@ -79,6 +90,7 @@ public class DifficultyClass : MonoBehaviour
             case "normal":
                levelDifficulty = "hard";
                break;
+            // Logs errors for invalid logic
             case "hard":
                Debug.Log("Already at Maximum difficulty");
                break;
@@ -90,6 +102,7 @@ public class DifficultyClass : MonoBehaviour
 
     public void decreaseDifficulty()
     {
+        // Decreases each possible difficulty setting by one level
         switch (levelDifficulty)
         {
             case "hard":
@@ -98,6 +111,7 @@ public class DifficultyClass : MonoBehaviour
             case "normal":
                levelDifficulty = "easy";
                break;
+            // Logs errors for invalid logic
             case "easy":
                Debug.Log("Already at Minimum difficulty");
                break;
@@ -108,7 +122,7 @@ public class DifficultyClass : MonoBehaviour
     }
 
     // Automated Tests
-    bool testSetDifficulty()
+    public bool testSetDifficulty()
     {
         string result = "easy";
         DifficultyClass testDifficulty = new DifficultyClass();
@@ -130,7 +144,7 @@ public class DifficultyClass : MonoBehaviour
         return false;
     }
 
-    bool testGetDifficulty()
+    public bool testGetDifficulty()
     {
         string result = levelDifficulty;
         string currentDifficulty = getDifficulty();
@@ -146,7 +160,7 @@ public class DifficultyClass : MonoBehaviour
         return false;
     }
 
-    bool testIncreaseDifficulty()
+    public bool testIncreaseDifficulty()
     {
         string result = "hard";
         DifficultyClass testDifficulty = new DifficultyClass();
@@ -168,7 +182,7 @@ public class DifficultyClass : MonoBehaviour
         testDifficulty = null;
         return false;
     }
-    bool testDecreaseDifficulty()
+    public bool testDecreaseDifficulty()
     {
         string result = "easy";
         DifficultyClass testDifficulty = new DifficultyClass();
