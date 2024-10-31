@@ -119,7 +119,7 @@ public void testAdjustDifficulty()
 {
     Student testStudent = new Student();
 
-    string result = "normal"
+    string result = "normal";
 
     testStudent.currentDifficulty.setDifficulty("easy");
     testStudent.adjustDifficulty(true);
