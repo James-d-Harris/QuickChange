@@ -26,6 +26,8 @@ public class Register: MonoBehaviour {
 	public GameObject fivePos;
 	public GameObject tenPos;
 
+  public GameObject snapPoint;
+
 	public Canvas canvas;
 
 	private Dictionary<string, int> currencyCounts;
@@ -169,6 +171,7 @@ public class Register: MonoBehaviour {
 			Currency currencyInstance = currencyObject.GetComponent<Currency>();
 
 			if( currencyInstance != null ) {
+        currencyInstance.tableArea = snapPoint.transform;
 				allCurrency.Add(currencyInstance);
 
 				Debug.Log(currencyType + " number " + i.ToString() + " has been instantiated succesfully");
