@@ -28,7 +28,7 @@ public class AutomatedTesting : MonoBehaviour
     public void testAddCoin()
     {
         CoinSumDisplay testDisplay = new CoinSumDisplay();
-        currency money = new Penny();
+        Currency money = new Penny();
 
         double result = money.monetaryValue + testDisplay.currentSum;
 
