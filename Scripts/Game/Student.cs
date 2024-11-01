@@ -46,7 +46,7 @@ public class Student
     }
 
     // Adjust the difficulty based on performance
-    private void adjustDifficulty(bool success)
+    public void adjustDifficulty(bool success)
     {
         if (success)
         {
