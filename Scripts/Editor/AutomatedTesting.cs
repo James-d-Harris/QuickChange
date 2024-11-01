@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using NUnit.Framework;
+using static Currency; // added to use Penny class
 
 public class AutomatedTesting : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class AutomatedTesting : MonoBehaviour
         string result = "easy";
         DifficultyClass testDifficulty = new DifficultyClass();
 
-        testDifficulty.setDifficulty("easy");
+        testDifficulty.setDifficulty(result);
 
         Assert.AreEqual( result, testDifficulty.getDifficulty(), "Error: Difficulty level was not set" );
 
@@ -123,10 +124,10 @@ public class AutomatedTesting : MonoBehaviour
 
         string result = "normal";
 
-        testStudent.currentDifficulty.setDifficulty("easy");
-        testStudent.adjustDifficulty(true);
+        Student.currentDifficulty.setDifficulty("easy");
+        Student.adjustDifficulty(true);
 
-        Assert.AreEqual( result, testStudent.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
+        Assert.AreEqual( result, Student.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
         testStudent = null;
     }
 }
