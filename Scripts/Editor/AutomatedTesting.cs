@@ -125,7 +125,7 @@ public class AutomatedTesting : MonoBehaviour
         string result = "normal";
 
         Student.currentDifficulty.setDifficulty("easy");
-        Student.adjustDifficulty(true);
+        testStudent.adjustDifficulty(true);
 
         Assert.AreEqual( result, Student.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
         testStudent = null;
