@@ -15,13 +15,6 @@ public class Currency : MonoBehaviour
 	private bool isDragging = false;
 	Vector3 mousePosition;
 
-	// constructor
-	public Currency( string name, double value)
-	{
-		currencyName = name;
-		monetaryValue = value;
-	}
-
 	// Update method
 	private void Update()
 	{
