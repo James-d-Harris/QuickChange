@@ -73,77 +73,49 @@ public class Currency : MonoBehaviour
 	// penny class
 	public class Penny : Currency
 	{
-        // initialize using Start function
-		void Start()
-        {
-            currencyName = "Penny";
-            monetaryValue = 0.01;
-        }
+        // initialize
+		public Penny() : base( "Penny", 0.01 ) { }
 	}
 
 	// nickel class
 	public class Nickel : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "Nickel";
-            monetaryValue = 0.05;
-        }
+		// initialize
+		public Nickel() : base( "Nickel", 0.05 ) { }
 	}
 
 	// dime class
 	public class Dime : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "Dime";
-            monetaryValue = 0.1;
-        }
+		// initialize
+		public Dime() : base( "Dime", 0.10 ) { }
 	}
 
 	// quarter class
 	public class Quarter : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "Quarter";
-            monetaryValue = 0.25;
-        }
+		// initialize
+		public Quarter() : base( "Quarter", 0.25 ) { }
 	}
 
 	// one dollar class
 	public class OneDollar : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "One Dollar";
-            monetaryValue = 1.00;
-        }
+		// initialize
+		public OneDollar() : base( "One Dollar", 1.00 ) { }
 	}
 
 	// five dollar class
 	public class FiveDollar : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "Five Dollar";
-            monetaryValue = 5.00;
-        }
+		// initialize
+		public FiveDollar() : base( "Five Dollar", 5.00 ) { }
 	}
 
 	// ten dollar class
 	public class TenDollar : Currency
 	{
-		 // initialize using Start function
-		void Start()
-        {
-            currencyName = "Ten Dollar";
-            monetaryValue = 10.00;
-        }
+		// initialize
+		public TenDollar() : base( "Ten Dollar", 10.00 ) { }
 	}
 }
