@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 9d506f4d11fe9354abe23eea2f33629d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pennyPrefab: {fileID: 2212568469826429078, guid: 4ce4a07916e7f8a40aabe45ffcbc3d46, type: 3}
+  - nicklePrefab: {fileID: 2575834423278157522, guid: 1fe8810388911ed4d9ac4b8f1df982c2, type: 3}
+  - dimePrefab: {fileID: 5681476255302119819, guid: 2ca9f75119147974d9a6c287a36c6a94, type: 3}
+  - quarterPrefab: {fileID: 3788534808496831128, guid: f9452c4afb6827b4b8d7e802a721ff9f, type: 3}
+  - dollarPrefab: {fileID: 4488397794836488435, guid: 6f0ac53aa6954a846bdd0a2188358d10, type: 3}
+  - fivePrefab: {fileID: 7838425013126690613, guid: 978e71abd0323d4429aa9704dae172f2, type: 3}
+  - tenPrefab: {fileID: 312015922862752229, guid: d0e94e71aa511d5458d11e7ace67f29a, type: 3}
+  - pennyPos: {instanceID: 0}
+  - nicklePos: {instanceID: 0}
+  - dimePos: {instanceID: 0}
+  - quarterPos: {instanceID: 0}
+  - dollarPos: {instanceID: 0}
+  - fivePos: {instanceID: 0}
+  - tenPos: {instanceID: 0}
+  - snapPoint: {instanceID: 0}
+  - canvas: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
