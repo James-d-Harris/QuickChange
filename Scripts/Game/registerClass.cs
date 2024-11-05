@@ -4,31 +4,53 @@ using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
 
 // register class
-public class Register: MonoBehaviour {
-  // define attributes
-  public double startingBalance;
-  public double endingBalance;
-  public List < Currency > allCurrency;
+public class Register: MonoBehaviour 
+{
+    // define attributes
 
+       // balance of what you start with
+    public double startingBalance;
+
+       // what is the balance when the level ends
+    public double endingBalance;
+
+       // what the currency of the starting cash is
+    public List < Currency > allCurrency;
+
+    // creating the currency prefabs and positions
+
+       // pennies
 	public GameObject pennyPrefab;
-	public GameObject nicklePrefab;
-	public GameObject dimePrefab;
-	public GameObject quarterPrefab;
-	public GameObject dollarPrefab;
-	public GameObject fivePrefab;
-	public GameObject tenPrefab;
+    public GameObject pennyPos;
 
-	public GameObject pennyPos;
-	public GameObject nicklePos;
-	public GameObject dimePos;
-	public GameObject quarterPos;
-	public GameObject dollarPos;
-	public GameObject fivePos;
+       // nickels
+    public GameObject nicklePrefab;
+    public GameObject nicklePos;
+
+       // dimes
+    public GameObject dimePrefab;
+    public GameObject dimePos;
+
+       // quarters
+    public GameObject quarterPrefab;
+    public GameObject quarterPos;
+
+       // one dollars
+    public GameObject dollarPrefab;
+    public GameObject dollarPos;
+
+       // five dollars
+    public GameObject fivePrefab;
+    public GameObject fivePos;
+
+       // ten dollars
+    public GameObject tenPrefab;
 	public GameObject tenPos;
-
+       
+    // create the canvas
 	public Canvas canvas;
 
-	private Dictionary<string, int> currencyCounts;
+	public Dictionary<string, int> currencyCounts;
 
 
   // register constructor
@@ -39,19 +61,10 @@ public class Register: MonoBehaviour {
     allCurrency = new List < Currency > (); // empty list
   }
 
-  void Start(){
-
-	currencyCounts = new Dictionary<string, int>() {
-		{"Penny", 20},
-		{"Nickle", 15},
-		{"Dime", 10},
-		{"Quarter", 8},
-		{"Dollar", 5},
-		{"Five", 3},
-		{"Ten", 2}
-	};
-
-
+  void Start()
+  {
+    // call to put the amount of each coin/bill
+    // into the register and into the scene
 	populateRegister();
   }
 
@@ -139,7 +152,10 @@ public class Register: MonoBehaviour {
   }
 
 
-  private void populateRegister() {
+  private void populateRegister() 
+  {
+    // if there is currency currently in the register,
+    // clear it out to start with a blank canvas
 	allCurrency.Clear();
 
 	CreateCurrencyInstances(pennyPrefab, pennyPos, "Penny");
