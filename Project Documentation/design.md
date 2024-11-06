@@ -9,6 +9,8 @@
 
 ## 3. Class Diagram
 
+![image](https://github.com/James-d-Harris/QuickChange/blob/D5-design/images/D5UMLClassDiagram.png)
+
 ## 4. Sequence Diagram
 
 ## 5. Design Patterns
