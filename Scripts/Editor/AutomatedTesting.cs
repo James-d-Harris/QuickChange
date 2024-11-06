@@ -43,7 +43,7 @@ public class AutomatedTesting : MonoBehaviour
       // Tests if expected result is reflected in test display sum
       Assert.AreEqual( result, testDisplay.currentSum,
                                 "Error: Coin Sum display is not adding coins" );
-      testDisplay = NULL;
+      testDisplay = null;
     }
 
     // Difficulty
@@ -69,7 +69,7 @@ public class AutomatedTesting : MonoBehaviour
       testDifficulty.setDifficulty( invalidDifficultyLevel );
       Assert.AreNotEqual( testDifficulty.levelDifficulty, invalidDifficultyLevel,
                      "Error: Difficulty level can be set to invalid settings" );
-      testDifficulty = NULL;
+      testDifficulty = null;
     }
 
     /*
@@ -86,7 +86,7 @@ public class AutomatedTesting : MonoBehaviour
 
       Assert.AreEqual( result, testDifficulty.levelDifficulty,
                                     "Error: Difficulty level not retrievable" );
-      testDifficulty = NULL;
+      testDifficulty = null;
     }
 
     /*
@@ -122,7 +122,7 @@ public class AutomatedTesting : MonoBehaviour
       // Determines if testLevel setting matches increased difficulty
       Assert.AreEqual( testLevel, testDifficulty.getDifficulty(),
                        "Error: Difficulty level not increased to test level" );
-      testDifficulty = NULL;
+      testDifficulty = null;
     }
 
     /*
@@ -161,7 +161,7 @@ public class AutomatedTesting : MonoBehaviour
       // Determines if testLevel setting matches decreased difficulty
       Assert.AreEqual( testLevel, testDifficulty.getDifficulty(),
                                       "Error: Difficulty level not decreased" );
-      testDifficulty = NULL;
+      testDifficulty = null;
     }
 
     // RegisterClass
@@ -179,7 +179,7 @@ public class AutomatedTesting : MonoBehaviour
       double balanceResult = 0.0;
       int index = 0;
 
-      while( registerInstance.allCurrency[index + 1] != NULL )
+      while( registerInstance.allCurrency[index + 1] != null )
       {
         balanceResult += registerInstance.allCurrency[index].monetaryValue;
       }
@@ -205,7 +205,7 @@ public class AutomatedTesting : MonoBehaviour
 
       Assert.AreEqual( result, testStudent.getSuccessfulLevels(),
                                          "Error: Success level was not added" );
-      testStudent = NULL;
+      testStudent = null;
     }
 
     /*
