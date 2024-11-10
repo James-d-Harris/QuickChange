@@ -35,6 +35,18 @@ QuickChange provides account-based progress tracking for both students and teach
 
 
 ## 5. Design Patterns
+**Design Pattern 1:** Currency Class (Composite Design)
+  ![image](https://github.com/user-attachments/assets/574e99b5-c2d5-4a81-aa95-ebf4286892ab)
+
+  **Corresponding Classes**
+- Currency: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- Penny: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- Nickel: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- Dime: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- Quarter: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- OneDollar: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- FiveDollar: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
+- TenDollar: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
 
 ## 6. Design Principles
 QuickChange’s design follows key principles of **user-centered design** and **scalability**.
