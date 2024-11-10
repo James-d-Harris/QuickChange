@@ -12,7 +12,7 @@
 ![image](https://github.com/James-d-Harris/QuickChange/blob/D5-design/images/D5UMLClassDiagram.png)
 
 ## 4. Sequence Diagram
-
+![image](https://github.com/James-d-Harris/QuickChange/blob/d5-sequence-diagram/images/use%20case%205%20play%20level.drawio.png?raw=true)
 ## 5. Design Patterns
 
 ## 6. Design Principles
