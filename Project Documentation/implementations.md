@@ -116,11 +116,11 @@ For our project we adopted the MIT license. The reason we decided on this licens
 
 For our user interface, we used Photoshop and Unity to create assets (images) that our users can interact with. We decided to recreate a real world environment, in this case a grocery store. Our users will sit behind a counter and interact with customers, the items they want to buy, and a register to check them out and give them change. Here are some images:
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/D4-Implementations/images/UnityUIStoreScene.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UnityUIStoreScene.png)
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/D4-Implementations/images/gamePenny.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/gamePenny.png)
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/D4-Implementations/images/tenDollar.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/tenDollar.png)
 
 ## 10. Lessons Learned
 
