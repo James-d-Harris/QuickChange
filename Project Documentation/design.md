@@ -49,7 +49,9 @@ QuickChange provides account-based progress tracking for both students and teach
 - TenDollar: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
 
 **Design Pattern 2:** Register Class (Observer Pattern)
+
   ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/D5UMLObserver.png)
+
 
   **Corresponding Classes**
 - Currency: https://github.com/James-d-Harris/QuickChange/blob/D5-design/Scripts/Game/coinClass.cs
