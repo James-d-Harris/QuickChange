@@ -12,5 +12,5 @@ The gameplay of QuickChange will consist of having **students** ***interact*** w
 
 ## 2. Model
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/analysis-development/images/UMLDiagramD3UPDATED.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UMLDiagramD3UPDATED.png)
   
