@@ -13,10 +13,10 @@ QuickChange provides account-based progress tracking for both students and teach
 
 ## 3. Class Diagram
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/D5-design/images/D5UMLClassDiagram.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/D5UMLClassDiagram.png)
 
 ## 4. Sequence Diagram
-![image](https://github.com/James-d-Harris/QuickChange/blob/d5-sequence-diagram/images/use%20case%205%20play%20level.drawio.png?raw=true)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/use%20case%205%20play%20level.drawio.png)
 
 ### use case 5 "Play Level" 
 - **Primary Actor:** Student
@@ -49,7 +49,7 @@ QuickChange provides account-based progress tracking for both students and teach
 - TenDollar: https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Game/coinClass.cs
 
 **Design Pattern 2:** Register Class (Observer Pattern)
-  ![image](https://github.com/James-d-Harris/QuickChange/blob/D5-design/images/D5UMLClassDiagram.png)
+  ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/D5UMLObserver.png)
 
   **Corresponding Classes**
 - Currency: https://github.com/James-d-Harris/QuickChange/blob/D5-design/Scripts/Game/coinClass.cs
