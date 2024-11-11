@@ -10,10 +10,16 @@ QuickChange provides account-based progress tracking for both students and teach
 
 
 ## 2. Architecture
-
+![image](https://github.com/user-attachments/assets/a399180b-c8a1-4c40-9bcd-28b3860218a7)
+Rationale:
+- Student and Teacher classes will both be able to login, create accounts, and play game levels by accessing the **Main Screen Layer**.
+- Teacher classes will have access to **Administrator Layer's** packages that allow for tracking student progress and managing student accounts.
+- The **Game Management Layer** has packages for initializing game levels, setting game level difficulty, operation of system automated testing, and stores account info in Database.
+- The **Game Management Layer** uses the **Game Logic Layer**, which contains packages correlating to the actual **Level Interface** in each level and important classes that the **Level Logic** is computed from.
+   
 ## 3. Class Diagram
 
-![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/D5UMLClassDiagram.png)
+![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/D5UMLClassDiagram.png) 
 
 ## 4. Sequence Diagram
 ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/use%20case%205%20play%20level.drawio.png)
