@@ -11,6 +11,7 @@ QuickChange provides account-based progress tracking for both students and teach
 
 ## 2. Architecture
 ![image](https://github.com/user-attachments/assets/a399180b-c8a1-4c40-9bcd-28b3860218a7)
+
 Rationale:
 - Student and Teacher classes will both be able to login, create accounts, and play game levels by accessing the **Main Screen Layer**.
 - Teacher classes will have access to **Administrator Layer's** packages that allow for tracking student progress and managing student accounts.
