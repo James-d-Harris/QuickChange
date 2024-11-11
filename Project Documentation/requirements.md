@@ -110,11 +110,11 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
      1. Teacher provides additional instruction on the value of coins and bills
   - **Use Case Diagram**:
     
-    ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2.png)
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCase2.png)
     
   - **Interface Sketch**
   
-    ![image](https://github.com/James-d-Harris/QuickChange/blob/james-use-case/images/UseCase2Sketch.png)
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCase2Sketch.png)
 
 - Sean: As a **teacher**, I have a large class and want to **see what is happening with the ones I cannot help in such a small amount of time** so that if any help is required to push that student or give them clarity, I can **model lesson planning or give a clearer indication of what to do to the student.**
   - **Use Case:** See each child's tracked records
@@ -144,7 +144,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
     1a. Parents are unable to login to their user's/child's QuickChange account.
       1. System informs parent of unsuccessful login and prompts them for another try OR a "forgot username/password" features is present.
   - **Interface Sketch:**\
-  ![image](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/UseCaseInterfaceSketchTate.drawio.png)
+  ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/UseCaseInterfaceSketchTate.drawio.png)
 - **Tre: Use Case 5:** Play Level
   - **Primary Actor:** Student
   - **Trigger:** The student decides to play a level
@@ -162,7 +162,7 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 
 
   - **Interface Sketch**:\
-    ![image](https://github.com/James-d-Harris/QuickChange/blob/fix-image/images/tre%20student%20use%20case.png)
+    ![image](https://github.com/James-d-Harris/QuickChange/blob/main/images/tre%20student%20use%20case.png)
 
 
 ## 7. User Stories
@@ -204,4 +204,4 @@ By focusing on these key metrics, we will be able to ensure the core gameplay me
 ## 8. Issue Tracker
 
 - <a href="https://github.com/James-d-Harris/QuickChange/issues" target="_blank">GitHub Issue Tracker </a>
-- ![Model](https://github.com/James-d-Harris/QuickChange/blob/Tate-Development-Branch/images/IssueTrackerScreenshot.png)
+- ![Model](https://github.com/James-d-Harris/QuickChange/blob/main/images/IssueTrackerScreenshot.png)
