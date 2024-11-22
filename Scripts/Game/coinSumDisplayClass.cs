@@ -11,7 +11,7 @@ public class CoinSumDisplay : MonoBehaviour
 
 
     // Start method
-    void Start()
+    private void Start()
     {
         // Initialize current sum
         currentSum = 0.0;
@@ -23,28 +23,41 @@ public class CoinSumDisplay : MonoBehaviour
     // Method to add coins and bills when they are dragged out
     public void AddCoin(Currency money)
     {
-        // Update current sum
-        currentSum += money.monetaryValue;
+        if (money != null)
+        {
+            // Update current sum
+            currentSum += money.monetaryValue;
 
-        // Update the display
-        UpdateDisplay();
+            // Update the display
+            UpdateDisplay();
+        }
     }
 
 
     // Method to remove coins and bills when they are dragged out
     public void RemoveCoin(Currency money)
     {
-        // Update current sum
-        currentSum -= money.monetaryValue;
+        if (money != null)
+        {
+            // Update current sum
+            currentSum -= money.monetaryValue;
 
-        // Update the display
-        UpdateDisplay();
+            // Update the display
+            UpdateDisplay();
+        }
     }
 
     // Update the UI display with the new sum
     private void UpdateDisplay()
     {
-        sumDisplay.text = "Total: $" + currentSum.ToString("F2");  // Use .text instead of .Text
+        if (sumDisplay != null)
+        {
+            sumDisplay.text = "Total: $" + currentSum.ToString("F2");  // Use .text instead of .Text
+        }
 
+        else
+        {
+            Debug.LogWarning("Sum display not assigned.");
+        }
     }
 }
