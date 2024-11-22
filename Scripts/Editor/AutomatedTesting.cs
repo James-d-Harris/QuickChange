@@ -242,7 +242,7 @@ public class AutomatedTesting : MonoBehaviour
     {
 
       Student testStudent = new Student( student );
-      string currentDifficultyLevel = testStudent.currentDifficulty.getDifficulty();
+      string currentDifficultyLevel = Student.currentDifficulty.getDifficulty();
       string result = "";
 
       // determines whether difficulty level needs to be increased or decreased
@@ -272,7 +272,7 @@ public class AutomatedTesting : MonoBehaviour
       }
 
       testStudent.adjustDifficulty( success );
-      Assert.AreEqual( result, testStudent.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
+      Assert.AreEqual( result, Student.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
 
       testStudent = null;
     }
