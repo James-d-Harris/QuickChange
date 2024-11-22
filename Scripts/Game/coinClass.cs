@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 // currency class
 public class Currency : MonoBehaviour
@@ -8,7 +9,7 @@ public class Currency : MonoBehaviour
 	public string currencyName;
 	public double monetaryValue;
     public Transform tableArea;
-    public float snapThreshold = 0.05f;
+    public float snapThreshold = 500;
 
 	private bool isDragging = false;
 	Vector3 mousePosition;
