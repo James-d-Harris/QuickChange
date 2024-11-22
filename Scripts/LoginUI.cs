@@ -22,7 +22,7 @@ public class LoginUI : MonoBehaviour
 
     void Start()
     {
-        CreateOverlay();  // Create the overlay when the scene starts
+        // CreateOverlay();  // Create the overlay when the scene starts
     }
 
     // This method will be called when the login button is clicked
@@ -31,15 +31,26 @@ public class LoginUI : MonoBehaviour
         string username = usernameInput.text;
         string password = passwordInput.text;
 
-        // Validate the user with MongoDB
-        bool isAuthenticated = await mongoDBManager.ValidateUser(username, password);
+        // Call the MongoDBManager's Login function
+        var userDocument = await mongoDBManager.Login(username, password);
 
-        // Display feedback to the user
-        if (isAuthenticated)
+        if (userDocument != null)
         {
             feedbackText.text = "Login successful!";
             OnLoginSuccess?.Invoke();
-            Destroy(panelObject);
+
+            // Create the Student object using the user data
+            Student loggedInStudent = new Student();
+
+            // Set fields from the MongoDB document
+            loggedInStudent.SetPermissionLevel(userDocument.GetValue("permissionLevel").AsInt32);
+
+            // Pass the Student object to the MenuManager
+            FindObjectOfType<MenuManager>().OnUserLogin(loggedInStudent);
+
+            // Close the login overlay
+            // Destroy(panelObject);
+            HideOverlay();
         }
         else
         {
@@ -48,7 +59,7 @@ public class LoginUI : MonoBehaviour
     }
 
     // Method to create the login overlay
-    private void CreateOverlay()
+    public void CreateOverlay()
     {
 
         // Create a Panel as the backdrop (Optional if you want a transparent overlay)
@@ -85,6 +96,20 @@ public class LoginUI : MonoBehaviour
         // Reparent and adjust existing UI elements
         AdjustUIElements();
     }
+
+    public void HideOverlay()
+    {
+        if (panelObject != null)
+        {
+            panelObject.SetActive(false); // Hide the login panel
+            Debug.Log("Hiding Panel");
+        }
+        else
+        {
+            Debug.LogWarning("Panel object is not initialized or already hidden.");
+        }
+    }
+
 
     // Method to adjust and parent the input fields and feedback text
     private void AdjustUIElements()

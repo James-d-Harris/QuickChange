@@ -11,7 +11,6 @@ public class Currency : MonoBehaviour
     public Transform tableArea;
     public float snapThreshold = 500;
 
-	
 	private bool isDragging = false;
 	Vector3 mousePosition;
 
@@ -48,9 +47,9 @@ public class Currency : MonoBehaviour
 			mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			mousePosition.z = 0; // Ensure z component is zero for 2D
 
-            // Move the object to follow the mouse smoothly
-            transform.position = mousePosition;
-        }
+			// Move the object to follow the mouse smoothly
+			transform.position = mousePosition;
+		}
 	}
 
     // Snap the object to the table area if close enough
