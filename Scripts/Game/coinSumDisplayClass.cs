@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;  // Add this for the Text component
 using System.Collections;
+using Unity.VisualScripting;
 
 public class CoinSumDisplay : MonoBehaviour
 {
@@ -8,7 +9,6 @@ public class CoinSumDisplay : MonoBehaviour
     public Text sumDisplay; // UI element for displaying the sum
 
     public double currentSum; // To track sum of coins counted
-
 
     // Start method
     private void Start()

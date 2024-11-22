@@ -34,7 +34,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testAddCoin( CoinSumDisplay coinDisplay, Currency testCoin )
     {
-      CoinSumDisplay testDisplay = new CoinSumDisplay( coinDisplay );
+      GameObject testObject = new GameObject( "TestCoinSumDisplay" );
+      CoinSumDisplay testDisplay = testObject.AddComponent<CoinSumDisplay>();
       double result = testDisplay.currentSum + testCoin.monetaryValue;
 
       // Adds chosen coin monetary value to test display sum
@@ -57,7 +58,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testSetDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
       string invalidDifficultyLevel = "";
 
       // Tests for successful test level setting
@@ -81,7 +83,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testGetDifficulty( DifficultyClass difficulty )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
       string result = testDifficulty.getDifficulty();
 
       Assert.AreEqual( result, testDifficulty.levelDifficulty,
@@ -98,7 +101,9 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testIncreaseDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
+
       // Initializes difficulty level to 'easy'
       testDifficulty.initializeDifficulty();
 
@@ -135,7 +140,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testDecreaseDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
 
       // Initializes difficulty and then sets difficulty level to 'hard'
       testDifficulty.initializeDifficulty();
@@ -236,8 +242,8 @@ public class AutomatedTesting : MonoBehaviour
     {
 
       Student testStudent = new Student( student );
-      string currentDifficultyLevel = testStudent.currentDifficulty.getDifficulty();
-      string result;
+      string currentDifficultyLevel = Student.currentDifficulty.getDifficulty();
+      string result = "";
 
       // determines whether difficulty level needs to be increased or decreased
       if( success )
@@ -246,8 +252,10 @@ public class AutomatedTesting : MonoBehaviour
         {
           case "easy":
              result = "normal";
+             break;
           case "normal":
              result = "hard";
+             break;
         }
       }
       else
@@ -256,13 +264,15 @@ public class AutomatedTesting : MonoBehaviour
         {
           case "hard":
              result = "normal";
+             break;
           case "normal":
              result = "easy";
+             break;
         }
       }
 
       testStudent.adjustDifficulty( success );
-      Assert.AreEqual( result, testStudent.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
+      Assert.AreEqual( result, Student.currentDifficulty.getDifficulty(), "Error: Student difficulty not adjusted" );
 
       testStudent = null;
     }
@@ -277,7 +287,7 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testAddStudent( List<Student> listOfStudents, Student student )
     {
-      if( !listOfStudents.contains( student ) )
+      if( !listOfStudents.Contains( student ) )
       {
         Debug.LogError( "Error: Student is not found in list if students" );
       }
