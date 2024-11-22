@@ -57,7 +57,7 @@ public class Currency : MonoBehaviour
     {
         if (tableArea != null && Vector3.Distance(transform.position, tableArea.position) < snapThreshold)
         {
-            transform.position = tableArea.position + new Vector3(UnityEngine.Random.Range(-10,10), UnityEngine.Random.Range(-10, 10), 0);
+            transform.position = tableArea.position + new Vector3(UnityEngine.Random.Range(-5,5), UnityEngine.Random.Range(-5, 5), 0);
             Debug.Log("Snapped to table area");
         }
     }
