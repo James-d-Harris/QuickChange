@@ -10,8 +10,6 @@ public class Currency : MonoBehaviour
     public Transform tableArea;
     public float snapThreshold = 0.05f;
 
-	
-	private float moveSpeed = 0.1f;
 	private bool isDragging = false;
 	Vector3 mousePosition;
 
@@ -34,7 +32,7 @@ public class Currency : MonoBehaviour
 		}
 
 		// Check if left mouse button is released
-		if (Input.GetMouseButtonUp(0))
+		if (Input.GetMouseButtonUp(0) && isDragging)
 		{
 			isDragging = false;
 			SnapToTable();
@@ -49,7 +47,7 @@ public class Currency : MonoBehaviour
 			mousePosition.z = 0; // Ensure z component is zero for 2D
 
 			// Move the object to follow the mouse smoothly
-			transform.position = Vector3.Lerp(transform.position, mousePosition, moveSpeed);
+			transform.position = mousePosition;
 		}
 	}
 
