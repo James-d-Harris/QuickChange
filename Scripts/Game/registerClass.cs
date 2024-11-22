@@ -197,8 +197,10 @@ public class Register: MonoBehaviour {
                 Random.Range(-0.1f, 0.1f), // Adjust range as needed
                 Random.Range(-0.1f, 0.1f),
             	0);
+      
+      Vector3 worldPosition = spawnPos.transform.position + randomOffset;
+      worldPosition.z = 0;
 
-			Vector3 worldPosition = spawnPos.transform.position + randomOffset;
 			GameObject currencyObject = Instantiate(prefab, worldPosition, prefab.transform.rotation);
 
 			Currency currencyInstance = currencyObject.GetComponent<Currency>();
