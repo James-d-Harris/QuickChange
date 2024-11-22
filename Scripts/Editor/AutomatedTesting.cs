@@ -237,7 +237,7 @@ public class AutomatedTesting : MonoBehaviour
 
       Student testStudent = new Student( student );
       string currentDifficultyLevel = testStudent.currentDifficulty.getDifficulty();
-      string result;
+      string result = "";
 
       // determines whether difficulty level needs to be increased or decreased
       if( success )
@@ -246,8 +246,10 @@ public class AutomatedTesting : MonoBehaviour
         {
           case "easy":
              result = "normal";
+             break;
           case "normal":
              result = "hard";
+             break;
         }
       }
       else
@@ -256,8 +258,10 @@ public class AutomatedTesting : MonoBehaviour
         {
           case "hard":
              result = "normal";
+             break;
           case "normal":
              result = "easy";
+             break;
         }
       }
 
@@ -277,7 +281,7 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testAddStudent( List<Student> listOfStudents, Student student )
     {
-      if( !listOfStudents.contains( student ) )
+      if( !listOfStudents.Contains( student ) )
       {
         Debug.LogError( "Error: Student is not found in list if students" );
       }
