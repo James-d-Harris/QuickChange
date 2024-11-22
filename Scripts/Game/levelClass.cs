@@ -80,6 +80,7 @@ public class levelClass : MonoBehaviour
                 };
                 break;
         }
+        // Calculation of current solution
         currentSolution = customer.customerMoneyGivenToUser - customer.totalForItems;
     }
 
