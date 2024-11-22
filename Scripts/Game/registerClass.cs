@@ -6,6 +6,7 @@ using Microsoft.Unity.VisualStudio.Editor;
 // register class
 public class Register: MonoBehaviour {
   // define attributes
+  public CoinSumDisplay coinSumDisplay;
   public double startingBalance;
   public double endingBalance;
   public List < Currency > allCurrency;
@@ -55,6 +56,32 @@ public class Register: MonoBehaviour {
 
 
 	populateRegister();
+
+  UpdateEndingBalance(); // refresh total balance
+
+  coinSumDisplay.UpdateDisplay(); // update UI
+  }
+
+  // add currency and update display
+  public void AddCurrency( Currency currency )
+  {
+      if ( currency != null )
+      {
+          allCurrency.Add( currency );
+          coinSumDisplay.AddCoin( currency ); // updates individual coin addition
+          UpdateEndingBalance(); // update total balance
+      }
+  }
+
+  // remove currency and update display
+  public void RemoveCurrency( Currency currency )
+  {
+      if ( currency != null && allCurrency.Contains( currency ) )
+      {
+          allCurrency.Remove( currency );
+          coinSumDisplay.RemoveCoin( currency ); // update individual coin removal
+          UpdateEndingBalance(); // refresh total balance
+      }
   }
 
   // method to count drawer balance
@@ -137,7 +164,13 @@ public class Register: MonoBehaviour {
 
     // update ending balance with current balance
     // functions: CalculateDrawerBalance()
-    endingBalance = CalculateDrawerBalance();
+    double endingBalance = CalculateDrawerBalance();
+
+    // display value
+    coinSumDisplay.currentSum = endingBalance;
+
+    // refresh UI
+    coinSumDisplay.UpdateDisplay();
   }
 
 
