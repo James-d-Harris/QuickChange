@@ -10,6 +10,7 @@ public class Student
     private int successfulLevels;
     private int failedLevels;
     // private Level userLevel;
+    private int permissionLevel;
 
     // Constructor
     public Student(/*Level startingLevel*/)
@@ -63,4 +64,15 @@ public class Student
     {
         Debug.Log("Starting Level");
     }
+
+    public int GetPermissionLevel()
+    {
+        return permissionLevel;
+    }
+
+    public void SetPermissionLevel(int level)
+    {
+        permissionLevel = level;
+    }
+
 }

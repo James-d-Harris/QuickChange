@@ -49,10 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currencyName: 
   monetaryValue: 0.25
-  moveSpeed: 5
-  isDragging: 0
   tableArea: {fileID: 0}
-  snapThreshold: 0
+  snapThreshold: 100
 --- !u!212 &753914226511779660
 SpriteRenderer:
   m_ObjectHideFlags: 0
