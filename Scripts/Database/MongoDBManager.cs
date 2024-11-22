@@ -12,7 +12,7 @@ public class MongoDBManager : MonoBehaviour
     private IMongoCollection<BsonDocument> collection;
 
     // MongoDB connection string
-    private string connectionString = "mongodb+srv://UnityAccess:OtWxkxbZljrZqSBv@cluster0.drcxz.mongodb.net/?retryWrites=true&w=majority";
+    private string connectionString = "mongodb+srv://UnityAccess:<password>@cluster0.drcxz.mongodb.net/?retryWrites=true&w=majority";
     private string databaseName = "QuickChangeDB";
     private string collectionName = "general"; // Change based on the school's collection
 
@@ -99,6 +99,36 @@ public class MongoDBManager : MonoBehaviour
             return false;
         }
     }
+
+    public async Task<BsonDocument> Login(string username, string password)
+    {
+        // Create a filter to find the user with the provided username and password
+        var filter = Builders<BsonDocument>.Filter.Eq("username", username) &
+                    Builders<BsonDocument>.Filter.Eq("password", password);
+
+        try
+        {
+            // Retrieve the user document
+            var result = await collection.Find(filter).FirstOrDefaultAsync();
+
+            if (result != null)
+            {
+                Debug.Log("Login successful! User data retrieved.");
+                return result; // Return the full user document as a BsonDocument
+            }
+            else
+            {
+                Debug.LogWarning("Login failed. Invalid username or password.");
+                return null; // Return null if credentials are invalid
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Login Error: " + e.Message);
+            return null; // Return null in case of an error
+        }
+    }
+
 
     // Example method to retrieve all users (for teacher dashboard)
     public async Task<List<BsonDocument>> GetAllUsers()
