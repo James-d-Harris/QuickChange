@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 // currency class
 public class Currency : MonoBehaviour
@@ -8,10 +9,9 @@ public class Currency : MonoBehaviour
 	public string currencyName;
 	public double monetaryValue;
     public Transform tableArea;
-    public float snapThreshold = 0.05f;
+    public float snapThreshold = 500;
 
 	
-	private float moveSpeed = 0.1f;
 	private bool isDragging = false;
 	Vector3 mousePosition;
 
@@ -34,7 +34,7 @@ public class Currency : MonoBehaviour
 		}
 
 		// Check if left mouse button is released
-		if (Input.GetMouseButtonUp(0))
+		if (Input.GetMouseButtonUp(0) && isDragging)
 		{
 			isDragging = false;
 			SnapToTable();
@@ -48,9 +48,9 @@ public class Currency : MonoBehaviour
 			mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			mousePosition.z = 0; // Ensure z component is zero for 2D
 
-			// Move the object to follow the mouse smoothly
-			transform.position = Vector3.Lerp(transform.position, mousePosition, moveSpeed);
-		}
+            // Move the object to follow the mouse smoothly
+            transform.position = mousePosition;
+        }
 	}
 
     // Snap the object to the table area if close enough
@@ -58,7 +58,7 @@ public class Currency : MonoBehaviour
     {
         if (tableArea != null && Vector3.Distance(transform.position, tableArea.position) < snapThreshold)
         {
-            transform.position = tableArea.position;
+            transform.position = tableArea.position + new Vector3(UnityEngine.Random.Range(-10,10), UnityEngine.Random.Range(-10, 10), 0);
             Debug.Log("Snapped to table area");
         }
     }

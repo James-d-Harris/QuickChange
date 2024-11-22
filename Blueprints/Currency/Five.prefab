@@ -49,10 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currencyName: 
   monetaryValue: 5
-  moveSpeed: 5
-  isDragging: 0
   tableArea: {fileID: 0}
-  snapThreshold: 0
+  snapThreshold: 100
 --- !u!212 &4161730531541056542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,7 +90,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1412529169
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 25f2d624d6287c44ea2a8123285e82c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
