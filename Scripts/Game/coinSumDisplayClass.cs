@@ -10,13 +10,6 @@ public class CoinSumDisplay : MonoBehaviour
 
     public double currentSum; // To track sum of coins counted
 
-    // constructor
-    public CoinSumDisplay( CoinSumDisplay coinDisplay )
-    {
-        sumDisplay = null;
-        currentSum = 0.0;
-    }
-
     // Start method
     void Start()
     {

@@ -16,13 +16,6 @@ public class DifficultyClass : MonoBehaviour
     public double balanceMax;
     public double tenderMax;
 
-    // constructor
-    public DifficultyClass( DifficultyClass difficulty )
-    {
-        balanceMax = 0.0;
-        tenderMax = 0.0;
-    }
-
     // Start is called before the first frame update
     void Start()
     {

@@ -34,7 +34,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testAddCoin( CoinSumDisplay coinDisplay, Currency testCoin )
     {
-      CoinSumDisplay testDisplay = new CoinSumDisplay( coinDisplay );
+      GameObject testObject = new GameObject( "TestCoinSumDisplay" );
+      CoinSumDisplay testDisplay = testObject.AddComponent<CoinSumDisplay>();
       double result = testDisplay.currentSum + testCoin.monetaryValue;
 
       // Adds chosen coin monetary value to test display sum
@@ -57,7 +58,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testSetDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
       string invalidDifficultyLevel = "";
 
       // Tests for successful test level setting
@@ -81,7 +83,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testGetDifficulty( DifficultyClass difficulty )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
       string result = testDifficulty.getDifficulty();
 
       Assert.AreEqual( result, testDifficulty.levelDifficulty,
@@ -98,7 +101,9 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testIncreaseDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
+
       // Initializes difficulty level to 'easy'
       testDifficulty.initializeDifficulty();
 
@@ -135,7 +140,8 @@ public class AutomatedTesting : MonoBehaviour
     */
     public void testDecreaseDifficulty( DifficultyClass difficulty, string testLevel )
     {
-      DifficultyClass testDifficulty = new DifficultyClass( difficulty );
+      GameObject testObject = new GameObject( "TestDifficulty" );
+      DifficultyClass testDifficulty = testObject.AddComponent<DifficultyClass>();
 
       // Initializes difficulty and then sets difficulty level to 'hard'
       testDifficulty.initializeDifficulty();
