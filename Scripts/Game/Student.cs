@@ -9,7 +9,10 @@ public class Student
     // Instance attributes for student progress
     private int successfulLevels;
     private int failedLevels;
+    private Student student;
+
     // private Level userLevel;
+    private int permissionLevel;
 
     // Constructor
     public Student(/*Level startingLevel*/)
@@ -17,6 +20,11 @@ public class Student
         successfulLevels = 0;
         failedLevels = 0;
         // userLevel = startingLevel;
+    }
+
+    public Student(Student student)
+    {
+        this.student = student;
     }
 
     // Method to get the number of successful levels
@@ -63,4 +71,15 @@ public class Student
     {
         Debug.Log("Starting Level");
     }
+
+    public int GetPermissionLevel()
+    {
+        return permissionLevel;
+    }
+
+    public void SetPermissionLevel(int level)
+    {
+        permissionLevel = level;
+    }
+
 }

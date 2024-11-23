@@ -47,12 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa97722554a775641b3e02672a9ac3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currencyName: 
+  currencyName: Dime
   monetaryValue: 0.1
-  moveSpeed: 5
-  isDragging: 0
   tableArea: {fileID: 0}
-  snapThreshold: 0
+  snapThreshold: 15
 --- !u!212 &7322979047420502755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,7 +90,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1412529169
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 63621bce1ee3ac7409a058711bd2c1cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

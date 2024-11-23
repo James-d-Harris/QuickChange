@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.71350175, w: 0.70065343}
   m_LocalPosition: {x: 3.064, y: -1.498, z: -0.6146761}
-  m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 25.000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,12 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa97722554a775641b3e02672a9ac3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currencyName: 
+  currencyName: Dollar
   monetaryValue: 1
-  moveSpeed: 5
-  isDragging: 0
   tableArea: {fileID: 0}
-  snapThreshold: 0
+  snapThreshold: 15
 --- !u!212 &3097792559397725208
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,7 +90,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1412529169
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ed19c5b520343044fa0bd16d6e8e1306, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
