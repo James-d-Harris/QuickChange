@@ -47,10 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa97722554a775641b3e02672a9ac3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currencyName: 
+  currencyName: Quarter
   monetaryValue: 0.25
   tableArea: {fileID: 0}
-  snapThreshold: 100
+  snapThreshold: 15
 --- !u!212 &753914226511779660
 SpriteRenderer:
   m_ObjectHideFlags: 0

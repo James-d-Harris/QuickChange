@@ -50,7 +50,7 @@ MonoBehaviour:
   currencyName: Dime
   monetaryValue: 0.1
   tableArea: {fileID: 0}
-  snapThreshold: 100
+  snapThreshold: 15
 --- !u!212 &7322979047420502755
 SpriteRenderer:
   m_ObjectHideFlags: 0
