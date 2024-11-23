@@ -3,83 +3,112 @@ using UnityEngine;
 
 public class Student
 {
-    // Static attribute for current difficulty
-    public static DifficultyClass currentDifficulty;
+    // Static property for current difficulty (shared across all students)
+    public static DifficultyClass currentDifficulty { get; set; }
 
-    // Instance attributes for student progress
-    private int successfulLevels;
-    private int failedLevels;
-    private Student student;
+    // Instance attributes for student details and progress
+    public string Username { get; private set; }
+    public string Password { get; private set; }
+    public int GradeLevel { get; private set; }
+    public int PermissionLevel;
+    public int SuccessfulLevels;
+    public int FailedLevels;
 
-    // private Level userLevel;
-    private int permissionLevel;
+    // Constructor to initialize a new student
 
-    // Constructor
-    public Student(/*Level startingLevel*/)
+    public Student()
     {
-        successfulLevels = 0;
-        failedLevels = 0;
-        // userLevel = startingLevel;
+        Username = string.Empty;
+        Password = string.Empty;
+        GradeLevel = 0;
+        PermissionLevel = 0;
+        SuccessfulLevels = 0;
+        FailedLevels = 0;
+    }
+    public Student(string username, string password, int gradeLevel, int permissionLevel)
+    {
+        Username = username;
+        Password = password;
+        GradeLevel = gradeLevel;
+        this.PermissionLevel = permissionLevel;
+        SuccessfulLevels = 0; // Defaults for a new student
+        FailedLevels = 0;
     }
 
-    public Student(Student student)
+    // Constructor to initialize from an existing student's data
+    public Student(string username, int gradeLevel, int permissionLevel, int successfulLevels, int failedLevels)
     {
-        this.student = student;
+        Username = username;
+        GradeLevel = gradeLevel;
+        this.PermissionLevel = permissionLevel;
+        this.SuccessfulLevels = successfulLevels;
+        this.FailedLevels = failedLevels;
     }
 
-    // Method to get the number of successful levels
-    public int getSuccessfulLevels()
+    public Student(Student other)
     {
-        return successfulLevels;
+        if (other == null)
+        {
+            Debug.LogWarning("Cannot create a student from a null reference.");
+            return;
+        }
+
+        Username = other.Username;
+        Password = other.Password;
+        GradeLevel = other.GradeLevel;
+        PermissionLevel = other.PermissionLevel;
+        SuccessfulLevels = other.SuccessfulLevels;
+        FailedLevels = other.FailedLevels;
     }
 
-    // Method to get the number of failed levels
-    public int getFailedLevels()
-    {
-        return failedLevels;
-    }
+    public int getSuccessfulLevels() => SuccessfulLevels;
 
-    // Method to add a successful level and adjust difficulty
+    public int getFailedLevels() => FailedLevels;
+
+    // Increment successful levels and adjust difficulty
     public void addSuccess()
     {
-        successfulLevels++;
+        SuccessfulLevels++;
         adjustDifficulty(true);
     }
 
-    // Method to add a failed level and adjust difficulty
+    // Increment failed levels and adjust difficulty
     public void addFailure()
     {
-        failedLevels++;
+        FailedLevels++;
         adjustDifficulty(false);
     }
 
     // Adjust the difficulty based on performance
     public void adjustDifficulty(bool success)
     {
-        if (success)
+        if (currentDifficulty != null)
         {
-            currentDifficulty.increaseDifficulty();
+            if (success)
+            {
+                // CurrentDifficulty.IncreaseDifficulty();
+            }
+            else
+            {
+                // CurrentDifficulty.DecreaseDifficulty();
+            }
         }
         else
         {
-            currentDifficulty.decreaseDifficulty();
+            Debug.LogWarning("CurrentDifficulty is not set. Difficulty adjustment skipped.");
         }
     }
 
-    // Method to start a level (implementation depends on game logic)
-    public void startLevel()
-    {
-        Debug.Log("Starting Level");
-    }
+    // Get permission level
+    public int GetPermissionLevel() => PermissionLevel;
 
-    public int GetPermissionLevel()
-    {
-        return permissionLevel;
-    }
+    // Set permission level
+    public void SetPermissionLevel(int level) => PermissionLevel = level;
 
-    public void SetPermissionLevel(int level)
+    // Dummy method to simulate starting a level
+    public void StartLevel()
     {
-        permissionLevel = level;
+        Debug.Log("Starting Level...");
+        // Placeholder for level-specific logic
     }
-
 }

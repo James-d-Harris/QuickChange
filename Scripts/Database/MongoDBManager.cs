@@ -51,15 +51,16 @@ public class MongoDBManager : MonoBehaviour
     }
 
     // Example method to insert a user document
-    public async Task InsertUser(string username, string password, bool teacher)
+    public async Task InsertUser(Student student)
     {
         var document = new BsonDocument
         {
-            { "username", username },
-            { "password", password },
-            { "teacher", teacher },
-            { "successfulLevels", 0 },
-            { "failedLevels", 0 }
+            { "username", student.Username },
+            { "password", student.Password },
+            { "gradeLevel", student.GradeLevel },
+            { "permissionLevel", student.PermissionLevel },
+            { "successfulLevels", student.SuccessfulLevels },
+            { "failedLevels", student.FailedLevels }
         };
 
         try

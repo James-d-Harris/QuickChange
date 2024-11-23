@@ -8,6 +8,9 @@ public class MenuManager : MonoBehaviour
     private GameObject menuPanel;  // The menu panel for buttons
     private Student currentUser;   // Tracks the logged-in user
     public LoginUI loginUI;        // Reference to the LoginUI script for creating the login overlay
+    public TeacherView teacherView; // Reference to the TeacherView in the scene
+    private TeacherView teacherViewInstance; // Store the dynamically created instance
+
 
     void Start()
     {
@@ -87,8 +90,9 @@ public class MenuManager : MonoBehaviour
         // Add additional buttons based on permission level
         if (currentUser.GetPermissionLevel() >= 2)
         {
-            CreateButton("View Students", () => Debug.Log("View Students clicked"), offset++, initialOffset, spacing);
+            CreateButton("View Students", ShowTeacherView, offset++, initialOffset, spacing);
         }
+
 
         if (currentUser.GetPermissionLevel() >= 3)
         {
@@ -100,6 +104,22 @@ public class MenuManager : MonoBehaviour
         // Exit button fixed at the bottom
         CreateFixedBottomButton("Exit Game", Application.Quit);
     }
+
+    void ShowTeacherView()
+    {
+        // Hide the main menu
+        HideMainMenu();
+
+        if (teacherView != null)
+        {
+            teacherView.Show();
+        }
+        else
+        {
+            Debug.LogError("TeacherView reference is not set in MenuManager.");
+        }
+    }
+
 
     // Helper method to clear all buttons
     void ClearMenu()
@@ -231,19 +251,12 @@ public class MenuManager : MonoBehaviour
         button.onClick.AddListener(onClickAction);
     }
 
-
-
-    // Action for login/logout button
     void OnLoginLogoutClick()
     {
-
         if (currentUser == null) // User is not logged in
         {
             Debug.Log("Login clicked. Show login screen.");
             loginUI.CreateOverlay(); // Call CreateOverlay on LoginUI
-
-            // After login (simulating successful login for this example)
-            currentUser = new Student(); // Replace with actual user login logic
         }
         else // User is logged in
         {
@@ -252,6 +265,13 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    // Updated after login
+    void OnLoginSuccess(string username, int permissionLevel, int successfulLevels, int failedLevels)
+    {
+        currentUser = new Student();
+        currentUser.SetPermissionLevel(permissionLevel);
+        Debug.Log($"User logged in: Username: {username}, PermissionLevel: {permissionLevel}, SuccessfulLevels: {successfulLevels}, FailedLevels: {failedLevels}");
+    }
 
     // Action for logout
     void OnLogoutClick()
@@ -260,4 +280,16 @@ public class MenuManager : MonoBehaviour
         currentUser = null;
         GenerateBasicMenu(); // Reset to basic menu
     }
+
+    public void HideMainMenu()
+    {
+        menuPanel.SetActive(false); // Disable the main menu panel
+    }
+
+    public void ShowMainMenu()
+    {
+        menuPanel.SetActive(true); // Enable the main menu panel
+    }
+
+
 }
