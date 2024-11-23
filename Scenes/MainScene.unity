@@ -945,6 +945,7 @@ GameObject:
   - component: {fileID: 1446501133}
   - component: {fileID: 1446501132}
   - component: {fileID: 1446501131}
+  - component: {fileID: 1446501134}
   m_Layer: 0
   m_Name: trayScreen
   m_TagString: Untagged
@@ -1025,6 +1026,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446501129}
   m_CullTransparentMesh: 1
+--- !u!114 &1446501134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446501129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15ca3a27c8dec14eb65ebb44b0e4d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sumDisplay: {fileID: 628553042}
+  currentSum: 0
 --- !u!1001 &6768373602645849486
 PrefabInstance:
   m_ObjectHideFlags: 0
