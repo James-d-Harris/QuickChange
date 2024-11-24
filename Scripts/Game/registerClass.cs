@@ -164,7 +164,7 @@ public class Register: MonoBehaviour {
 
     // update ending balance with current balance
     // functions: CalculateDrawerBalance()
-    double endingBalance = CalculateDrawerBalance();
+    endingBalance = CalculateDrawerBalance();
 
     // display value
     coinSumDisplay.currentSum = endingBalance;
