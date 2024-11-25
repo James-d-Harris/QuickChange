@@ -60,9 +60,9 @@
 
 **Requirement:** Introduce Level class that will be used to control most of the game.
 
-**Issue:** [GitHub Issue #89](https://github.com/James-d-Harris/QuickChange/issues/89)
+**Issue:** [GitHub Issue #130](https://github.com/James-d-Harris/QuickChange/issues/130)
 
-**Pull Request:** [GitHub Pull Request #127](https://github.com/James-d-Harris/QuickChange/pull/127)
+**Pull Request:** [GitHub Pull Request #115](https://github.com/James-d-Harris/QuickChange/pull/115)
 
 **Implemented By:** Sean Weston
 
