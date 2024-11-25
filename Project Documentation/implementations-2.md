@@ -84,7 +84,7 @@ The main features of our game include a:
 ### Unit Testing
 **Test Framework:** Unity Testing Framework
 
-**GitHub Link:** 
+**GitHub Link:** https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Editor/UnitTesting.cs
 
 **TestCase Example:** testCalculateDrawerBalance
 
@@ -109,7 +109,7 @@ public void testCalculateDrawerBalance( Register registerInstance )
 ### Acceptance Testing
 **Test Framework:** Unity Testing Framework
 
-**GitHub Link:** 
+**GitHub Link:** https://github.com/James-d-Harris/QuickChange/blob/main/Scripts/Editor/AcceptanceTesting.cs
 
 **TestCase Example:** checkUserInput
 
