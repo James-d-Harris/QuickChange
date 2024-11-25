@@ -52,7 +52,7 @@ The main features of our game include a:
 
 **Approved By:** Trey Kelley
 
-**Screenshot:** [!image](https://github.com/James-d-Harris/QuickChange/blob/d6-work/images/unityTeacherView.png)
+**Screenshot:** ![image](https://github.com/James-d-Harris/QuickChange/blob/d6-work/images/unityTeacherView.png)
 
 
 **Requirement:** Acceptance testing for C# classes.
