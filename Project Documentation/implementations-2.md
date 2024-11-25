@@ -167,6 +167,8 @@ IEnumerator logRecordedInput( float numOfSeconds )
 
 ## 4. Demo
 
+[Video](https://youtu.be/ijRg7w5yuOs)
+
 ## 5. Code Quality
 
 As a team, we decided that the best way to manage out code quality was to use a C# Linter. Since we had worked with command line linters in CS 386 a few weeks prior, we wanted to work with something similar for C#. We landed on dotnet-format, a command line tool to check and fix code style and formatting issues.
