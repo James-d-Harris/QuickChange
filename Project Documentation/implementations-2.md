@@ -5,6 +5,16 @@
 
 ## 1. Introduction
 
+QuickChange is an educational game that teaches kids how to count money in the most accurate and efficient way by introducing the student to a real world learning environment.
+
+The main features of our game include a: 
+
+- Login scene that allows students to login and store their game data.
+- Teacher login scene that allows admin to view their progress.
+- A store scene that includes a register, customers, and items to purchase. Here is where students can interact with money and customers to get a feel for a real world learning environment.
+
+[GitHub Project Link](https://github.com/James-d-Harris/QuickChange/tree/main)
+
 ## 2. Implemented Requirements
 **Requirement:** Register UI to display amount of current change in register.
 
@@ -42,7 +52,7 @@
 
 **Approved By:** Trey Kelley
 
-**Screenshot:** (if applicable)
+**Screenshot:** 
 
 
 **Requirement:** Acceptance testing for C# classes.
@@ -55,7 +65,7 @@
 
 **Approved By:** Trey Kelley
 
-**Screenshot:** (if applicable)
+**Screenshot:** N/A
 
 
 **Requirement:** Introduce Level class that will be used to control most of the game.
@@ -68,7 +78,7 @@
 
 **Approved By:** Tre Kelley
 
-**Screenshot:** (if applicable)
+**Screenshot:** N/A
 
 ## 3. Testing
 
@@ -90,3 +100,7 @@ Some practices we adopted to improve the code quality were:
 
 
 ## 6. Lessons Learned
+
+Looking back on this deliverable and second release of implementations, we as a team learned more about client-server architecture and how to use external tools to create games (i.e., Unity Game Engine, MongoDB). 
+
+Moving forward, if we were to continue developing this product we would want to add more game levels that correspond to the student's grade level (i.e., difficulty), have multiple customer interactions per level, and have some sort of feedback for each level that shows completness, accuracy, etc. for the students.
