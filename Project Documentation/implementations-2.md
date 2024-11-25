@@ -29,7 +29,8 @@
 
 **Approved By:** Tre Kelley
 
-**Screenshot:** ![image](https://github.com/James-d-Harris/QuickChange/blob/d6-work/images/unityCustomerAssetScreenshot.png)
+**Screenshot:** 
+![image](https://github.com/James-d-Harris/QuickChange/blob/d6-work/images/unityCustomerAssetScreenshot.png)
 
 
 **Requirement:** Teacher view for student results.
