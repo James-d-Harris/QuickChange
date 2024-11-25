@@ -174,7 +174,7 @@ public class Register: MonoBehaviour {
   }
 
 
-  private void populateRegister() {
+  public void populateRegister() {
 	allCurrency.Clear();
 
 	CreateCurrencyInstances(pennyPrefab, pennyPos, "Penny");
