@@ -82,11 +82,11 @@ The dotnet-format linter follows the common C# code conventions as posted here: 
 
 Some practices we adopted to improve the code quality were:
 
-    1. Followed the offical C# code conventions provided by Microsoft.
-    2. Implemented mandatory peer reviews for all pull requests before any merging can be done.
-    3. Used Debug.Log statements to ensure adequate coverage of edge cases.
-    4. Wrote extensive comments when necessary, mainly including TODO tasks.
-    5. Committing changes often instead of all at one.
+1. Followed the offical C# code conventions provided by Microsoft.
+2. Implemented mandatory peer reviews for all pull requests before any merging can be done.
+3. Used Debug.Log statements to ensure adequate coverage of edge cases.
+4. Wrote extensive comments when necessary, mainly including TODO tasks.
+5. Committing changes often instead of all at one.
 
 
 ## 6. Lessons Learned
