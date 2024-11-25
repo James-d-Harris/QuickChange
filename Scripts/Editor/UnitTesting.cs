@@ -5,11 +5,11 @@ using UnityEngine.Assertions;
 using static Currency; // added to use Penny class
 
 /*
-This Automated Testing class is meant to test all public class methods with a
+This Unit Testing class is meant to test all public class methods with a
 definitive outcome
 */
 
-public class AutomatedTesting : MonoBehaviour
+public class UnitTesting : MonoBehaviour
 {
     void Start()
     {
