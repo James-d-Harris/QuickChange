@@ -6,15 +6,54 @@
 ## 1. Introduction
 
 ## 2. Implemented Requirements
-**Requirement:**
+**Requirement:** Register UI to display amount of current change in register.
 
-**Issue:** 
+**Issue:** [GitHub Issue #89](https://github.com/James-d-Harris/QuickChange/issues/89)
 
-**Pull Request:** 
+**Pull Request:** [GitHub Pull Request #126](https://github.com/James-d-Harris/QuickChange/pull/126)
 
-**Implemented By:** 
+**Implemented By:** Tate Whittaker
 
-**Approved By:** 
+**Approved By:** Tre Kelley
+
+**Screenshot:** (if applicable)
+
+
+**Requirement:** Teacher view for student results.
+
+**Issue:** [GitHub Issue #128](https://github.com/James-d-Harris/QuickChange/issues/128)
+
+**Pull Request:** [GitHub Pull Request #125](https://github.com/James-d-Harris/QuickChange/pull/125)
+
+**Implemented By:** James Harris
+
+**Approved By:** Trey Kelley
+
+**Screenshot:** (if applicable)
+
+
+**Requirement:** Acceptance testing for C# classes.
+
+**Issue:** [GitHub Issue #129](https://github.com/James-d-Harris/QuickChange/issues/129)
+
+**Pull Request:** [GitHub Pull Request #127](https://github.com/James-d-Harris/QuickChange/pull/127)
+
+**Implemented By:** Dazzion Porter
+
+**Approved By:** Trey Kelley
+
+**Screenshot:** (if applicable)
+
+
+**Requirement:** Introduce Level class that will be used to control most of the game.
+
+**Issue:** [GitHub Issue #89](https://github.com/James-d-Harris/QuickChange/issues/89)
+
+**Pull Request:** [GitHub Pull Request #127](https://github.com/James-d-Harris/QuickChange/pull/127)
+
+**Implemented By:** Sean Weston
+
+**Approved By:** Tre Kelley
 
 **Screenshot:** (if applicable)
 
