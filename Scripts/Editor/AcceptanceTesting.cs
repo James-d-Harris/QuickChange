@@ -37,7 +37,7 @@ public class AcceptanceTesting : MonoBehaviour
   Tests For: If customer values are higher than its specified difficulty maximum
   Parameters: N/A
   Return: void
-  */
+  
   void checkMaxBoundaries()
   {
     // Initializes test level object
@@ -62,14 +62,14 @@ public class AcceptanceTesting : MonoBehaviour
       Debug.LogError("Error: Customer tender out of level difficulty bounds");
     }
   }
-
+*/
 
   /*
   Name: checkLevelAnswer
   Tests For: If user calculated correct answer
   Parameters: testLevel (levelClass)
   Return: void
-  */
+  
   void checkLevelAnswer( levelClass testLevel )
   {
     // defines change back solution in a given level
@@ -83,13 +83,13 @@ public class AcceptanceTesting : MonoBehaviour
     // Checks level feedback
     checkLevelFeedback( testLevel, studentSolution, changeBackSolution );
   }
-
+  */
   /*
   Name: checkLevelFeedback
   Tests For: Tests if proper feed back has been given based on student calculated solution
   Parameters: testLevel (levelClass), studentSolution (double), levelSolution (double)
   Return: void
-  */
+  
   void checkLevelFeedback( levelClass testLevel, double studentSolution, double levelSolution )
   {
     // Stores index of an array that stores feedback messages
@@ -116,7 +116,7 @@ public class AcceptanceTesting : MonoBehaviour
     // Asserts that feedback has been given
     Assert.AreEqual(testLevel.register.CoinSumDisplay.sumDisplay, testLevel.studentFeedBack[feedbackIndex], "Error: Feedback not given");
   }
-
+  */
   /*
   Name: checkUserInput
   Tests For: listens for user input
