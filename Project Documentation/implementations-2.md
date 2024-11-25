@@ -126,7 +126,7 @@ void checkUserInput()
   }
 ```
 
-Below is the _IEnumerator_ that listens for user input over given amount of time. When user input detected, it its logged to the console. If user input is never detected, an error is logged.
+Below is the _IEnumerator_ that listens for user input over given amount of time. When user input detected, it is logged to the console. If user input is never detected, an error is logged.
 
 ```
 IEnumerator logRecordedInput( float numOfSeconds )
