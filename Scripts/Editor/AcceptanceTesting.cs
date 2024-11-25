@@ -158,7 +158,7 @@ public class AcceptanceTesting : MonoBehaviour
       }
 
       // increments timer
-      timer += time.deltaTime;
+      timer += Time.deltaTime;
       yield return null;
     }
 
