@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loginUI: {fileID: 701595799}
+  teacherView: {fileID: 269294619}
 --- !u!4 &118378432
 Transform:
   m_ObjectHideFlags: 0
@@ -898,14 +899,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4653572102000884242, guid: 5dc1afeb7fe0ebc44b5c11bad4418368, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 92.049835
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653572102000884242, guid: 5dc1afeb7fe0ebc44b5c11bad4418368, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 243.519
-      objectReference: {fileID: 0}
     - target: {fileID: 7466482961972684094, guid: 5dc1afeb7fe0ebc44b5c11bad4418368, type: 3}
       propertyPath: m_Camera
       value: 
@@ -933,3 +926,6 @@ SceneRoots:
   - {fileID: 6768373602645849486}
   - {fileID: 516227693}
   - {fileID: 118378432}
+  - {fileID: 269294620}
+
+
