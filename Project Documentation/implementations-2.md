@@ -93,14 +93,18 @@ This unit test verifies the behavior of a method from the register class. Ensure
 ```
 public void testCalculateDrawerBalance( Register registerInstance )
     {
+      // Initializes a balance result to be calculated
       double balanceResult = 0.0;
+      // An index for register currency
       int index = 0;
 
+      // Loops through all currency
       while( registerInstance.allCurrency[index + 1] != null )
       {
+        // Adds all monetary value of found currency
         balanceResult += registerInstance.allCurrency[index].monetaryValue;
       }
-
+      // Asserts that found result matches CalculateDrawerBalance output
       Assert.AreEqual( balanceResult, registerInstance.CalculateDrawerBalance(),
                             "Error: Drawer balance is incorrectly calculated" );
     }
