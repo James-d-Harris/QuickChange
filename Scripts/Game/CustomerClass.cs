@@ -38,8 +38,6 @@ public class customerInfo : MonoBehaviour
 
         int numItems = rand.Next(1, 11);
 
-
-
         // define what is specified for each level
         switch (customerDifficulty)
         {
