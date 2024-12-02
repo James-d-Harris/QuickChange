@@ -72,7 +72,7 @@ The main features of our game include a:
 
         - Was the objective of the game clear?
 
-            - Not really. I know because you told me, but handing the changes to Obama when he's suppose to be paying for his item was confusing. I think a validation or confirmation screen should be added to really tell the user they were successful or unsuccessful.
+            - Not really. I know because you told me, but handing the change to Obama when he's suppose to be paying for his item was confusing. I think a validation or confirmation screen should be added to really tell the user they were successful or unsuccessful.
 
         - What could we improve moving forward?
 
@@ -86,7 +86,7 @@ The main features of our game include a:
 
         - Would you recommend this game to others?
 
-            - Yes, I would recommend this game to by boss and the other student teachers I work with.
+            - Yes, I would recommend this game to my boss and the other student teachers I work with.
 
         - Who do you think could benefit most from this game?
 
@@ -104,7 +104,7 @@ The main features of our game include a:
 
         - Are real-life money skills adequately covered in the game?
 
-            - Yes and no. The interaction between the customer and employee is covered, but as far as the actually change being given back, I think it could use some work. Maybe adding a follow along screen to show the optimal amount of change, or changing the register display to help the kids count could really help.
+            - Yes and no. The interaction between the customer and employee is covered, but as far as the actual change being given back, I think it could use some work. Maybe adding a follow along screen to show the optimal amount of change, or changing the register display to help the kids count could really help.
 
         - What other kinds of level designs or environments would you like to see?
 
