@@ -109,3 +109,71 @@ The main features of our game include a:
         - What other kinds of level designs or environments would you like to see?
 
             - I think the store scene is really cool, adding more items to buy would also be nice. I think an additional level should be food related, like McDonalds or the cafeteria so the kids can relate.
+
+2. Abby Timonen
+
+    - Gameplay:
+
+        - How does the game look?
+
+            - A little bland and confusing. I'm not sure if I'm inside or outside or on a busy street. I think if you're going for a grocery store look, add some more registers, some shelves in the back, and some products on the shelves.
+
+        - What do you think of the register UI and menu screens?
+
+            - I like the aspect of the register UI and the idea that it can keep track of the amount of change necessary to give. It could really help the younger kids who have trouble with decimals. 
+
+        - Do you feel the game was interactive and entertaining?
+
+            - Yes.
+
+        - Rate the difficulty of playing from 1-10.
+
+            - 5
+
+        - Were the game mechanics easy to understand and use?
+
+            - Yes.
+
+        - Was the objective of the game clear?
+
+            - The idea of the objective was clear, but it's not actually there in the game. There are a few things missing like the exchange of goods and some way to tell the kids if they're right or wrong.
+
+        - What could we improve moving forward?
+
+            - Adding at least something to the setting in the menu screen would be cool, even if it's just brightness or something like that. Also adding multiple customers per level so kids can get a chance to get the problem right without restarting the entire game. 
+
+    - Usage: 
+
+        - Would you use this game, and in what environment?
+
+            - I would play this by myself if more levels were added, but right now I would use it for the kids I do one-on-one time with during math lessons.
+
+        - Would you recommend this game to others?
+
+            - Yes, I'm going to tell my practicum teacher about it actually.
+
+        - Who do you think could benefit most from this game?
+
+            - Elementary-age kids, mainly kindergarten through fifth grade.
+
+        - Does the game feel fun and educational simultaneously?
+
+            - Yeah, I think that kids can learn how to use money in a grocery store and still have fun because of the silly characters and colors. Really kids just like any game or screen time they get.
+
+        - How long would you or your kids spend playing?
+
+            - With just the one level, maybe 5 or 10 minutes.
+
+    - Inception Follow-ups
+
+        - What other kinds of level designs or environments would you like to see?
+
+            - I had mentioned when you first interviewed me that I would've liked an Amazon type environment. However, looking at the game now that doesn't make a lot of sense, but I think a restaurant, bank, or video game store would appeal to the kids. 
+
+        - Are the menu screens simple to understand and do you feel they provide easy access to kids?
+
+            - The menu screen is easy to understand and most of the buttons work. I do want to see some work done with the settings button to allow for more accessibility (color blind mode, maybe text-to-speech).
+
+        - Are the gameplay, background, and assets attention-grabbing and entertaining?
+
+            - The gameplay is simple and interactive. I like the coin movement and that the customer is Obama. The background is a little bland and doesn't really look like a store. It kind of looks like you set up shop on the side of the street behind some windows.
