@@ -184,15 +184,15 @@ The main features of our game include a:
 
         - How does the game look?
 
-            - Looks cartoony and kindof childish in a good way. I think it would be entertaining, but only to younger kids
+            - Looks cartoony and kindof childish in a good way. I think it would be entertaining, but only to younger kids.
 
         - What do you think of the register UI and menu screens?
 
-            - It looks easy to use and helpful, serves it's purpose but looks a little minimalist
+            - It looks easy to use and helpful, serves it's purpose but looks a little minimalist.
 
         - Do you feel the game was interactive and entertaining?
 
-            - Yea but just for younger kids
+            - Yea but just for younger kids.
 
         - Rate the difficulty of playing from 1-10.
 
@@ -200,21 +200,21 @@ The main features of our game include a:
 
         - Were the game mechanics easy to understand and use?
 
-            - Yea it's super easy to understand. I like that there is something that keeps track of the money pulled out
+            - Yea it's super easy to understand. I like that there is something that keeps track of the money pulled out.
 
         - Was the objective of the game clear?
 
-            - It's almost kind of self-explanatory, but I can see some little kids not getting it at first
+            - It's almost kind of self-explanatory, but I can see some little kids not getting it at first.
 
         - What could we improve moving forward?
 
-            -  Maybe adding some instructions. And decorating the store more
+            -  Maybe adding some instructions. And decorating the store more.
 
     - Usage: 
 
         - Would you use this game, and in what environment?
 
-            - As an adult, I personally wouldn't use it
+            - As an adult, I personally wouldn't use it.
 
         - Would you recommend this game to others?
 
@@ -222,30 +222,30 @@ The main features of our game include a:
 
         - Who do you think could benefit most from this game?
 
-            - Kids, or maybe tutors or teachers
+            - Kids, or maybe tutors or teachers.
 
         - Does the game feel fun and educational simultaneously?
 
-            - Yes, seems entertaining to be something that teaches math
+            - Yes, seems entertaining to be something that teaches math.
 
         - How long would you or your kids spend playing?
 
-            - If there are other levels, I can see a kid being entertained for a good 15-30 minutes
+            - If there are other levels, I can see a kid being entertained for a good 15-30 minutes.
 
     - Inception Follow-ups
 
         - What other kinds of level designs or environments would you like to see?
 
-            - A different store, or other customers than Obama
+            - A different store, or other customers than Obama.
 
         - Are the menu screens simple to understand and do you feel they provide easy access to kids?
 
-            - Yea, I think they are simple and pretty straight-forward
+            - Yea, I think they are simple and pretty straight-forward.
 
         - Are the gameplay, background, and assets attention-grabbing and entertaining?
 
-            - Yea it all seems like it would keep a kids attention
+            - Yea it all seems like it would keep a kids attention.
         
         - Are real-life money skills adequately covered in the game?
           
-            - Yes but in a very simple way, teaches good core foundations for kids to know
+            - Yes but in a very simple way, teaches good core foundations for kids to know.
