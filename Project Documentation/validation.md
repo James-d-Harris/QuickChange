@@ -177,3 +177,75 @@ The main features of our game include a:
         - Are the gameplay, background, and assets attention-grabbing and entertaining?
 
             - The gameplay is simple and interactive. I like the coin movement and that the customer is Obama. The background is a little bland and doesn't really look like a store. It kind of looks like you set up shop on the side of the street behind some windows.
+
+2. Thelma Davis
+
+    - Gameplay:
+
+        - How does the game look?
+
+            - Looks cartoony and kindof childish in a good way. I think it would be entertaining, but only to younger kids
+
+        - What do you think of the register UI and menu screens?
+
+            - It looks easy to use and helpful, serves it's purpose but looks a little minimalist
+
+        - Do you feel the game was interactive and entertaining?
+
+            - Yea but just for younger kids
+
+        - Rate the difficulty of playing from 1-10.
+
+            - 4
+
+        - Were the game mechanics easy to understand and use?
+
+            - Yea it's super easy to understand. I like that there is something that keeps track of the money pulled out
+
+        - Was the objective of the game clear?
+
+            - It's almost kind of self-explanatory, but I can see some little kids not getting it at first
+
+        - What could we improve moving forward?
+
+            -  Maybe adding some instructions. And decorating the store your in more
+
+    - Usage: 
+
+        - Would you use this game, and in what environment?
+
+            - As an adult, I personally wouldn't use it
+
+        - Would you recommend this game to others?
+
+            - Yea I'd recommend this game to parents of children that seem to struggle with math. Or if parents just want something constructive for their kids to do.
+
+        - Who do you think could benefit most from this game?
+
+            - Kids, or maybe tutors or teachers
+
+        - Does the game feel fun and educational simultaneously?
+
+            - Yes, seems entertaining to be something that teaches math
+
+        - How long would you or your kids spend playing?
+
+            - If there are other levels, I can see a kid being entertained for a good 15-30 minutes
+
+    - Inception Follow-ups
+
+        - What other kinds of level designs or environments would you like to see?
+
+            - A different store, or other customers than obama
+
+        - Are the menu screens simple to understand and do you feel they provide easy access to kids?
+
+            - Yea, i think they are simple and pretty straight-forward
+
+        - Are the gameplay, background, and assets attention-grabbing and entertaining?
+
+            - Yea it all seems like it would keep a kids attention
+        
+        - Are real-life money skills adequately covered in the game?
+          
+            - Yes but in a very simple way, teaches good core foundations for kids to know
