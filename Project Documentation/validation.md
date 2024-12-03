@@ -208,7 +208,7 @@ The main features of our game include a:
 
         - What could we improve moving forward?
 
-            -  Maybe adding some instructions. And decorating the store your in more
+            -  Maybe adding some instructions. And decorating the store more
 
     - Usage: 
 
