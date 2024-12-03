@@ -236,11 +236,11 @@ The main features of our game include a:
 
         - What other kinds of level designs or environments would you like to see?
 
-            - A different store, or other customers than obama
+            - A different store, or other customers than Obama
 
         - Are the menu screens simple to understand and do you feel they provide easy access to kids?
 
-            - Yea, i think they are simple and pretty straight-forward
+            - Yea, I think they are simple and pretty straight-forward
 
         - Are the gameplay, background, and assets attention-grabbing and entertaining?
 
