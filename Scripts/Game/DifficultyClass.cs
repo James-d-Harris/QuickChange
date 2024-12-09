@@ -17,7 +17,7 @@ public class DifficultyClass : MonoBehaviour
     public double tenderMax;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         initializeDifficulty();
     }
